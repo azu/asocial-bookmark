@@ -73,13 +73,13 @@ WIP: It is complex workflow.
 1. Create your repository.
     - Example: `https://github.com/{your}/mybookmarks`
 2. Convert existing bookmark like "はてなブックマーク" to asocial-bookmark
-    - Run `migrate-hatenabookmark-to-asocial-bookmark --hatena <user-name>`
+    - Run `$ migrate-hatenabookmark-to-asocial-bookmark --hatena <user-name>`
     - For more details, see [src/cli/migrate-hatenabookmark-to-asocial-bookmark.ts](src/cli/migrate-hatenabookmark-to-asocial-bookmark.ts)
 3. Setup CI/CD - [Netlify](https://www.netlify.com/) is useful in this case
-    - Run `asocial-bookmark-create-index` before each deploy
+    - Run `$ asocial-bookmark-create-index` that create `index.json` before each deploy
     - Enable CORS for `https://<your-bookmark>/index.json`
-    - All bookmarks: https://<your-bookmark>/index.json`
-    - All tags: https://<your-bookmark>/tags.json`
+    - All bookmarks: `https://<your-bookmark>/index.json`
+    - All tags: `https://<your-bookmark>/tags.json`
     - Block bookmarks by month: https://<your-bookmark>/:year/:month/index.json` 
 
 `.netlify.toml` in your bookmark repository:
