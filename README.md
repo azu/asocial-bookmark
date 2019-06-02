@@ -57,11 +57,71 @@ RUN following CLI in your bookmark repository.
 
 Migrate はてなブックマーク to asocial-bookmark
 
+    $ cd your-bookmarks-repository/
     $ migrate-hatenabookmark-to-asocial-bookmark --hatena <user-name>
 
 Create `index.json` that includes all bookmarks.
 
+    $ cd your-bookmarks-repository/
     $ asocial-bookmark-create-index
+
+
+## How to create your bookmark repository
+
+WIP: It is complex workflow.
+
+1. Create your repository.
+    - Example: `https://github.com/{your}/mybookmarks`
+2. Convert existing bookmark like "はてなブックマーク" to asocial-bookmark
+    - Run `migrate-hatenabookmark-to-asocial-bookmark --hatena <user-name>`
+    - For more details, see [src/cli/migrate-hatenabookmark-to-asocial-bookmark.ts](src/cli/migrate-hatenabookmark-to-asocial-bookmark.ts)
+3. Setup CI/CD - [Netlify](https://www.netlify.com/) is useful in this case
+    - Run `asocial-bookmark-create-index` before each deploy
+    - Enable CORS for `https://<your-bookmark>/index.json`
+    - All bookmarks: https://<your-bookmark>/index.json`
+    - All tags: https://<your-bookmark>/tags.json`
+    - Block bookmarks by month: https://<your-bookmark>/:year/:month/index.json` 
+
+`.netlify.toml` in your bookmark repository:
+```toml
+# example netlify.toml
+[build]
+  command = "asocial-bookmark-create-index"
+  functions = "functions"
+  publish = "."
+  #  status = 200
+[[headers]]
+  for = "/index.json"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+
+```
+
+
+4. Post bookmark via [postem](https://github.com/azu/postem)
+    - See <https://github.com/azu/postem/blob/master/src/services/asocial-bookmark/README.md>
+
+
+`src/service.js` in [postem](https://github.com/azu/postem)
+```js
+const path = require("path");
+module.exports = [
+    {
+        enabled: true,
+        name: "twitter",
+        indexPath: path.join(__dirname, "services/twitter/index.js")
+    },
+    {
+        enabled: true,
+        name: "AsocialBookmark",
+        indexPath: path.join(__dirname, "services/asocial-bookmark/index.js")
+    }
+];
+```
+
+5. Search Bookmark on [はてなブックマーク検索PWA](https://hatebupwa.netlify.com/)
+    - Input `https://<your-bookmark>/index.json` to "hatena user name" 
+    - Do incremental search! 
 
 
 ## Changelog
