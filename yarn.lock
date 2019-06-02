@@ -1217,10 +1217,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
-korefile@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/korefile/-/korefile-1.0.2.tgz#af99fa8101f3ab14cd1e43da4aac62f432515e47"
-  integrity sha512-J9hkhm4J+uEoeuFGgNUXy7bFGUb0xosdFD5qZTl3l/t9i6y5ATcYL+GXOyjTdLFFAFCkbc4QOMG892Cm+2nCuw==
+korefile@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/korefile/-/korefile-1.1.0.tgz#47d6edbaadf669c2575b136f07d6db0093de1193"
+  integrity sha512-nGb1G0ImX1plQccocahbKCgnVfF3vTXJoFwInIDNfMJ9gS5VHCeisKXJmX/xHmGkth8uWarAJHA13UeN8ef3oQ==
   dependencies:
     "@octokit/rest" "^16.27.3"
     base-64 "^0.1.0"

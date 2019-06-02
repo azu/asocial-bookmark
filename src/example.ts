@@ -5,10 +5,12 @@ import { AsocialBookmark } from "./asocial-bookmark";
         throw new Error("Set env GH_TOKEN=xxx");
     }
     const asocialBookmark = new AsocialBookmark({
-        owner: "azu",
-        repo: "mybookmarks",
-        ref: "heads/master",
-        token: process.env.GH_TOKEN
+        github: {
+            owner: "azu",
+            repo: "mybookmarks",
+            ref: "heads/master",
+            token: process.env.GH_TOKEN
+        }
     });
     const date = new Date();
     const isoDate = new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toISOString();
@@ -24,5 +26,7 @@ import { AsocialBookmark } from "./asocial-bookmark";
         url: "https://example.com",
         date: new Date().toUTCString()
     });
-    console.log(bookmark);
+    console.log("bookmark", bookmark);
+    const tags = await asocialBookmark.getTags();
+    console.log("tags", tags);
 })();
