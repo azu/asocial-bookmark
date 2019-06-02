@@ -23,6 +23,7 @@
   "main": "lib/asocial-bookmark.js",
   "types": "lib/asocial-bookmark.d.ts",
   "bin": {
+    "asocial-bookmark-create-index": "./bin/asocial-bookmark-create-index.js",
     "migrate-hatenabookmark-to-asocial-bookmark": "./bin/migrate-hatenabookmark-to-asocial-bookmark.js"
   },
   "directories": {

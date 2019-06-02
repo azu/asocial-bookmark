@@ -49,8 +49,17 @@ import { AsocialBookmark } from "asocial-bookmark";
     const tags = await asocialBookmark.getTags();
     console.log("tags", tags);
 })();
-
 ```
+
+## CLI
+
+Migrate はてなブックマーク to asocial-bookmark
+
+    $ migrate-hatenabookmark-to-asocial-bookmark --hatena <user-name>
+
+Create `index.json` that includes all bookmarks.
+
+    $ asocial-bookmark-create-index
 
 
 ## Changelog
