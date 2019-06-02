@@ -121,6 +121,7 @@ module.exports = [
 
 5. Search Bookmark on [はてなブックマーク検索PWA](https://hatebupwa.netlify.com/)
     - Input `https://<your-bookmark>/index.json` to "hatena user name" 
+    - Very Very Hack But Work!
     - Do incremental search! 
 
 
