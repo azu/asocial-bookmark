@@ -39,7 +39,7 @@ export function parseComment(text: string) {
         tags.push(match[0]);
         lastIndex = match.index + match[0].length + 1;
     }
-    const comment = text.slice(lastIndex);
+    const comment = text.slice(lastIndex).trim();
     return {
         tags,
         comment
