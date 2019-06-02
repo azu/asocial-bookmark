@@ -80,7 +80,7 @@ WIP: It is complex workflow.
     - Enable CORS for `https://<your-bookmark>/index.json`
     - All bookmarks: `https://<your-bookmark>/index.json`
     - All tags: `https://<your-bookmark>/tags.json`
-    - Block bookmarks by month: https://<your-bookmark>/:year/:month/index.json` 
+    - Block bookmarks by month: `https://<your-bookmark>/:year/:month/index.json` 
 
 `.netlify.toml` in your bookmark repository:
 ```toml
@@ -98,7 +98,7 @@ WIP: It is complex workflow.
 ```
 
 
-4. Post bookmark via [postem](https://github.com/azu/postem)
+4. Post bookmark to your repository via [postem](https://github.com/azu/postem)
     - See <https://github.com/azu/postem/blob/master/src/services/asocial-bookmark/README.md>
 
 
