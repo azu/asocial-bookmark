@@ -53,6 +53,8 @@ import { AsocialBookmark } from "asocial-bookmark";
 
 ## CLI
 
+RUN following CLI in your bookmark repository.
+
 Migrate はてなブックマーク to asocial-bookmark
 
     $ migrate-hatenabookmark-to-asocial-bookmark --hatena <user-name>
