@@ -1,6 +1,7 @@
 import { createFsAdaptor, createGitHubAdaptor, createKoreFile, KoreFile } from "korefile";
 import dayjs from "dayjs";
 import { from } from "fromfrom";
+import normalizeUrl from "normalize-url";
 
 const debug = require("debug")("asocial-bookmark");
 
@@ -34,6 +35,11 @@ export const createPermalink = (variablePath: string, date: Date) => {
     ).replace(
         ":month", day.format("MM")
     );
+};
+
+
+const equalsUrl = (a: string, b: string): boolean => {
+    return normalizeUrl(a) === normalizeUrl(b);
 };
 
 export class AsocialBookmark {
@@ -128,7 +134,7 @@ export class AsocialBookmark {
         try {
             const items = await this.getItemsAtMonth(new Date(date));
             return items.find(item => {
-                return item.url === url;
+                return equalsUrl(item.url, url);
             });
         } catch (error) {
             debug("getBookmark Error", error);
@@ -147,7 +153,7 @@ export class AsocialBookmark {
         try {
             const items = await this.getItemsAtMonth(newItemDate);
             const matchIndex = items.findIndex(item => {
-                return item.url === newItem.url;
+                return equalsUrl(item.url, newItem.url);
             });
             // remove old item
             if (matchIndex !== -1) {
@@ -173,7 +179,7 @@ export class AsocialBookmark {
         const permalink = createPermalink(this.variablePath, itemDate);
         debug("updateBookmark: permalink", permalink);
         const matchIndex = items.findIndex(item => {
-            return item.url === url;
+            return equalsUrl(item.url, url);
         });
         // remove old item
         if (matchIndex !== -1) {

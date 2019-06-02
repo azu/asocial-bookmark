@@ -77,6 +77,7 @@
     "hatebu-mydata-parser": "^1.0.0",
     "korefile": "^1.1.0",
     "meow": "^5.0.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "normalize-url": "^4.3.0"
   }
 }
