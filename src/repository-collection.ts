@@ -3,6 +3,7 @@ import * as fs from "fs";
 import * as util from "util";
 import * as path from "path";
 import { AsocialBookmarkItem } from "./asocial-bookmark";
+import { from } from "fromfrom";
 
 const debug = require("debug")("asocial-bookmark");
 
@@ -31,5 +32,8 @@ export async function collectionIndexJSON({ cwd }: { cwd: string }): Promise<Aso
 export async function createIndexJSON({ cwd }: { cwd: string }) {
     const items = await collectionIndexJSON({ cwd });
     // will be unique?
-    return items;
+    return from(items)
+        .sortByDescending(item => item.date)
+        .distinct()
+        .toArray();
 }
