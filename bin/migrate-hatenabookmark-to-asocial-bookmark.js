@@ -8,12 +8,16 @@ const cli = meow(`
  
     Options
       --hatena Hatena User name
+      --cwd    Current Working Directory
  
     Examples
       $ migrate-hatenabookmark-to-asocial-bookmark --hatena test
 `, {
     flags: {
         hatena: {
+            type: "string"
+        },
+        cwd: {
             type: "string"
         }
     },
@@ -23,7 +27,7 @@ const cli = meow(`
 
 migrate({
     hatenaUserName: cli.flags.hatena,
-    cwd: process.cwd()
+    cwd: cli.flags.cwd || process.cwd()
 }).then(() => {
     console.log("Success!");
 }).catch(error => {

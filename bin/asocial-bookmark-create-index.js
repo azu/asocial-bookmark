@@ -6,15 +6,23 @@ const cli = meow(`
     Usage
       $ asocial-bookmark-create-index
  
+    Options
+      --cwd    Current Working Directory
+ 
     Examples
       $ asocial-bookmark-create-index
 `, {
+    flags: {
+        cwd: {
+            type: 'string'
+        }
+    },
     autoHelp: true,
     autoVersion: true
 });
 
 createIndex({
-    cwd: process.cwd()
+    cwd: cli.flags.cwd || process.cwd()
 }).then(() => {
     console.log("Success!");
 }).catch(error => {

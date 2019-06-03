@@ -70,7 +70,7 @@ export class AsocialBookmark {
         }
     }
 
-    private async updateTags(newTags: string[]): Promise<void> {
+    async updateTags(newTags: string[]): Promise<void> {
         if (newTags.length === 0) {
             return;
         }
@@ -165,7 +165,8 @@ export class AsocialBookmark {
             }
             const newItems = items.concat(newItem);
             await this.koreFile.writeFile(permalink, JSON.stringify(newItems, null, 4));
-            await this.updateTags(newItem.tags);
+            // Move updating tags to batch tool => asocial-bookmark-create-index.ts
+            // await this.updateTags(newItem.tags);
         } catch (error) {
             debug("getBookmark Error", error);
             return;

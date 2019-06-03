@@ -1,4 +1,4 @@
-import { createIndexJSON } from "../repository-collection";
+import { createIndexJSON, createTagsJSON } from "../repository-collection";
 import * as fs from "fs";
 import * as util from "util";
 import * as path from "path";
@@ -15,5 +15,9 @@ export async function createIndex(options: migrateOptions) {
     const items = await createIndexJSON({
         cwd: options.cwd
     });
-    return writeFile(path.join(options.cwd, "index.json"), JSON.stringify(items), "utf-8");
+    await writeFile(path.join(options.cwd, "index.json"), JSON.stringify(items), "utf-8");
+    const tags = await createTagsJSON({
+        cwd: options.cwd
+    });
+    await writeFile(path.join(options.cwd, "tags.json"), JSON.stringify(tags), "utf-8");
 }
