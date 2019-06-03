@@ -31,16 +31,15 @@ export async function collectionIndexJSON({ cwd }: { cwd: string }): Promise<Aso
 
 export async function createIndexJSON({ cwd }: { cwd: string }) {
     const items = await collectionIndexJSON({ cwd });
-    // will be unique?
+    // TODO: Will be unique more by `url` key?
     return from(items)
         .sortByDescending(item => item.date)
-        .distinct()
+        .distinct() // unique ===
         .toArray();
 }
 
 export async function createTagsJSON({ cwd }: { cwd: string }) {
     const items = await collectionIndexJSON({ cwd });
-    // will be unique?
     return from(items)
         .flatMap(item => item.tags)
         .distinct()
