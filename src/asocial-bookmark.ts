@@ -28,7 +28,7 @@ export interface AsocialBookmarkOptions {
     }
 }
 
-export const createPermalink = (variablePath: string, date: Date) => {
+const createPermalink = (variablePath: string, date: Date) => {
     const day = dayjs(date);
     return variablePath.replace(
         ":year", day.format("YYYY")
@@ -40,6 +40,10 @@ export const createPermalink = (variablePath: string, date: Date) => {
 
 const equalsUrl = (a: string, b: string): boolean => {
     return normalizeUrl(a) === normalizeUrl(b);
+};
+
+export const isAsocialBookmarkItem = (item: any): item is AsocialBookmarkItem => {
+    return typeof item.title === "string" && typeof item.url === "string" && typeof item.content === "string";
 };
 
 export class AsocialBookmark {

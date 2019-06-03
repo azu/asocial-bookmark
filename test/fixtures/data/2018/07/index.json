@@ -1,0 +1,2409 @@
+[
+    {
+        "title": "Logging Activity With The Web Beacon API — Smashing Magazine",
+        "url": "https://www.smashingmagazine.com/2018/07/logging-activity-web-beacon-api/",
+        "tags": [
+            "JavaScript",
+            "article"
+        ],
+        "content": "`navigator.sendBeacon`を使ってページを離脱する前にログを送信する方法について。 またGDPRやDNTの対応について",
+        "date": "2018-07-31T09:32:19.000Z"
+    },
+    {
+        "title": "perf-tools/performance at master · artifact-project/perf-tools · GitHub",
+        "url": "https://github.com/artifact-project/perf-tools/tree/master/performance",
+        "tags": [
+            "JavaScript",
+            "performance",
+            "library"
+        ],
+        "content": "User Timing APIのpolyfillライブラリ",
+        "date": "2018-07-31T09:27:58.000Z"
+    },
+    {
+        "title": "Google グループ",
+        "url": "https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/7MCjXU3zmCQ/ZSDsTaMuBQAJ",
+        "tags": [
+            "WebSocket",
+            "HTTP2"
+        ],
+        "content": "WebSockets + HTTP/2の実装",
+        "date": "2018-07-31T09:27:24.000Z"
+    },
+    {
+        "title": "Announcing TypeScript 3.0 | TypeScript",
+        "url": "https://blogs.msdn.microsoft.com/typescript/2018/07/30/announcing-typescript-3-0/",
+        "tags": [
+            "TypeScript",
+            "ReleaseNote"
+        ],
+        "content": "TypeScript 3.0リリース。 Project references、可変長引数に型パラメータを適応できるように、Tuple型の改善、`unknown`型の追加、Reactの`defaultProps`の型のサポートなど",
+        "date": "2018-07-31T07:15:53.000Z"
+    },
+    {
+        "title": "Dart-sassであそぼう - Speaker Deck",
+        "url": "https://speakerdeck.com/terrierscript/dart-sassdeasobou",
+        "tags": [
+            "dart",
+            "Sass",
+            "JavaScript",
+            "slide"
+        ],
+        "content": "Dart Sassをブラウザ上で動かすことについてのスライド。 `@import`の対応、Bootstrapをブラウザ上で動かすためのハック、WebWorkerの対応など",
+        "date": "2018-07-31T00:03:27.000Z"
+    },
+    {
+        "title": "Announcing the Ionic 4 Beta  |  The Ionic Blog",
+        "url": "https://blog.ionicframework.com/announcing-ionic-4-beta/",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "クロスプラットフォームアプリ開発フレームワークのIonic 4 Betaリリース。",
+        "date": "2018-07-30T23:54:57.000Z"
+    },
+    {
+        "title": "GitHub - cozmo/jsQR: A pure javascript QR code reading library. This library takes in raw images and will locate, extract and parse any QR code found within.",
+        "url": "https://github.com/cozmo/jsQR",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "依存がないQRコードリーダライブラリ",
+        "date": "2018-07-30T23:47:53.000Z"
+    },
+    {
+        "title": "Angular v6.1 Now Available — TypeScript 2.9, Scroll Positioning, and more",
+        "url": "https://blog.angular.io/angular-v6-1-now-available-typescript-2-9-scroll-positioning-and-more-9f1c03007bb6",
+        "tags": [
+            "Angular",
+            "ReleaseNote"
+        ],
+        "content": "Angular v6.1リリース。 ルーターの`scrollPositionRestoration`オプションでスクロール位置の保存に対応、TypeScript 2.9サポートなど",
+        "date": "2018-07-30T23:47:22.000Z"
+    },
+    {
+        "title": "GitHub - kvendrik/sketchlint: 💎 Pluggable linting utility for Sketch.",
+        "url": "https://github.com/kvendrik/sketchlint",
+        "tags": [
+            "mac",
+            "software"
+        ],
+        "content": "SketchのLintツール",
+        "date": "2018-07-30T20:46:35.000Z"
+    },
+    {
+        "title": "css2sass | Convert CSS Snippets to Syntactically Awesome StyleSheets code",
+        "url": "http://css2sass.herokuapp.com/",
+        "tags": [
+            "CSS",
+            "Sass"
+        ],
+        "content": "CSS をsass/scssに変換するツール",
+        "date": "2018-07-30T20:46:02.000Z"
+    },
+    {
+        "title": "JavaScript Error Tracking | CatchJS",
+        "url": "https://catchjs.com/",
+        "tags": [
+            "webservice",
+            "JavaScript"
+        ],
+        "content": "JavaScriptエラー収集サービス",
+        "date": "2018-07-30T20:32:48.000Z"
+    },
+    {
+        "title": "    クラウドサイン責任者が語る、リーガルテック“エコシステム”構想　変わりゆく法律業界のゆくえ - ログミーBiz",
+        "url": "https://logmi.jp/302209",
+        "tags": [
+            "法律",
+            "企業"
+        ],
+        "content": "LegalTechの分野の分類について",
+        "date": "2018-07-30T20:16:55.000Z"
+    },
+    {
+        "title": "Vue技术内幕",
+        "url": "http://hcysun.me/vue-design/",
+        "tags": [
+            "Vue",
+            "JavaScript",
+            "ebook"
+        ],
+        "content": "Vue.jsのソースコードを解説する電子書籍。 ディレクトリ構造、オプションや初期化処理、リアクティブシステムの実装、テンプレートのパースとジェネレートの仕組み、Virtual DOMについてなど",
+        "date": "2018-07-30T10:24:37.000Z"
+    },
+    {
+        "title": "Array.prototype.sort について",
+        "url": "https://memolog.org/2018/about-array-prototype-sort.html",
+        "tags": [
+            "JavaScript",
+            "V8",
+            "article"
+        ],
+        "content": "各ブラウザのJavaScriptエンジンのsotの実装について。 仕様では安定ソートを保証しないが、大体が安定ソートになっていっている。 V8はV8 7.0/Chrome 70でTimesortになる。",
+        "date": "2018-07-30T10:18:21.000Z"
+    },
+    {
+        "title": "GitHub - nodejs/dynamic-modules: Dynamic Modules Proposal for ECMAScript",
+        "url": "https://github.com/guybedford/proposal-dynamic-modules",
+        "tags": [
+            "ECMAScript",
+            "node.js"
+        ],
+        "content": "CommonJSのDynmic moduleを扱うためのProposal",
+        "date": "2018-07-30T10:16:36.000Z"
+    },
+    {
+        "title": "サーバーサイドエンジニアにフロントエンドの研修をした話 | BizReach Designer Blog",
+        "url": "https://design.bizreach.co.jp/archives/3019",
+        "tags": [
+            "企業",
+            "JavaScript",
+            "Angular"
+        ],
+        "content": "フロントエンド研修",
+        "date": "2018-07-29T23:03:47.000Z"
+    },
+    {
+        "title": "LKL.js: Linux kernelを直接JavaScript上で動かす - めもちょー",
+        "url": "https://retrage01.hateblo.jp/entry/2018/07/21/153000",
+        "tags": [
+            "linux",
+            "JavaScript"
+        ],
+        "content": "Linux Kernel Library (LKL)をemscriptenで動かす",
+        "date": "2018-07-29T22:46:22.000Z"
+    },
+    {
+        "title": "    Angularの次世代ビューエンジン「Ivy」とは何か？　3つの特徴と新たにできるようになること - ログミーTech",
+        "url": "https://logmi.jp/302246",
+        "tags": [
+            "Angular"
+        ],
+        "content": "Ivyとメタプログラミング",
+        "date": "2018-07-29T22:32:45.000Z"
+    },
+    {
+        "title": "Promiseによる非同期処理の書き方 - 30歳からのプログラミング",
+        "url": "http://numb86-tech.hatenablog.com/entry/2017/01/02/152517",
+        "tags": [
+            "Promises",
+            "JavaScript"
+        ],
+        "content": "Promiseについて",
+        "date": "2018-07-29T22:27:21.000Z"
+    },
+    {
+        "title": "DDDリポジトリを楽に実装するライブラリ - Qiita",
+        "url": "https://qiita.com/j5ik2o/items/5f29e2ec22a5eac2a186",
+        "tags": [
+            "scala",
+            "DDD"
+        ],
+        "content": "ScalaのDDD Base",
+        "date": "2018-07-29T22:26:23.000Z"
+    },
+    {
+        "title": "Removing Babel's Stage Presets · Babel",
+        "url": "https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets",
+        "tags": [
+            "babel",
+            "article"
+        ],
+        "content": "Babel 7では`babel-preset-stage-0`のようなStage Presetを公開しないことについて。 Stage Presetを削除することにした背景やProposalへのフィードバックについて。",
+        "date": "2018-07-29T22:23:39.000Z"
+    },
+    {
+        "title": "Statechart - 増井俊之",
+        "url": "https://scrapbox.io/masui/Statechart",
+        "tags": [
+            "アルゴリズム",
+            "article"
+        ],
+        "content": "複雑な状態遷移のパターンを記述するStatechartについて。",
+        "date": "2018-07-29T22:17:04.000Z"
+    },
+    {
+        "title": "曖昧検索asearch",
+        "url": "https://scrapbox.io/masui/%E6%9B%96%E6%98%A7%E6%A4%9C%E7%B4%A2asearch",
+        "tags": [
+            "アルゴリズム",
+            "search"
+        ],
+        "content": "あいまい検索のagrepについて。 状態遷移をビットマップ演算で表現して高速なあいまい検索を行うBitapアルゴリズムについて",
+        "date": "2018-07-29T22:14:38.000Z"
+    },
+    {
+        "title": "Prettier 1.14: YAML Support · Prettier",
+        "url": "https://prettier.io/blog/2018/07/29/1.14.0.html",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "Prettier 1.14リリース。 YAMLのサポート、Front matterをサポート、`requirePragma`と`requirePragma`を各言語でサポート、CJK処理を改善してパフォーマンスの改善など",
+        "date": "2018-07-29T21:33:02.000Z"
+    },
+    {
+        "title": "影響力ランキング1位の投資家・村田祐介氏がVCを目指した理由 | STARTUP DB MEDIA | 日々進化する、成長産業領域に特化した情報プラットフォーム",
+        "url": "https://media.startup-db.com/interview/incubatefund-murata",
+        "tags": [
+            "インタビュー"
+        ],
+        "content": "契約書とかストックオプションの話",
+        "date": "2018-07-29T20:08:25.000Z"
+    },
+    {
+        "title": "Frontend News",
+        "url": "https://frontendnews.io/",
+        "tags": [
+            "CSS",
+            "DOM",
+            "JavaScript",
+            "mail",
+            "web"
+        ],
+        "content": "フロントエンドに関する1週間に1つのTipsについてを更新するサイト",
+        "date": "2018-07-29T18:06:32.000Z"
+    },
+    {
+        "title": "最短30秒でJSON形式のWEB APIを公開 | JSON OKIBA",
+        "url": "https://json.okiba.me/",
+        "tags": [
+            "JSON",
+            "webservice"
+        ],
+        "content": "JSON API",
+        "date": "2018-07-28T18:06:16.000Z"
+    },
+    {
+        "title": "Redux vs. The React Context API",
+        "url": "https://daveceddia.com/context-api-vs-redux/",
+        "tags": [
+            "React",
+            "article"
+        ],
+        "content": "React Contextの使い方や動作についての解説。Reduxでのステート管理との違いやContextはReduxを置き換えるものではない点についてなど",
+        "date": "2018-07-28T12:26:36.000Z"
+    },
+    {
+        "title": "Add referrerpolicy support to <script> elements - Chrome Platform Status",
+        "url": "https://www.chromestatus.com/feature/5227651627220992",
+        "tags": [
+            "JavaScript",
+            "spec",
+            "HTML"
+        ],
+        "content": "scriptタグにlinkタグと同じようにreferrerpolicyを指定できるように",
+        "date": "2018-07-28T11:00:42.000Z"
+    },
+    {
+        "title": "feat: Split `lerna version` from of `lerna publish` by evocateur · Pull Request #1522 · lerna/lerna · GitHub",
+        "url": "https://github.com/lerna/lerna/pull/1522",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "monorepo"
+        ],
+        "content": "lernaで`version`と`publish`を別々のコマンドとして実行できるようになった",
+        "date": "2018-07-28T10:58:10.000Z"
+    },
+    {
+        "title": "Introducing NoState Prefetch  |  Web       |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2018/07/nostate-prefetch",
+        "tags": [
+            "Chrome"
+        ],
+        "content": "`<link rel=\"prerender\">`などをしたばあいにおこなわれるNoState Prefetchについて。prerenderはメモリ消費が激しいため、低スペックデバイスではpreconnectまでになっている、 NoState Prefetchはレンダリングプロセスは使うがGETのみでリソ",
+        "date": "2018-07-28T00:49:07.000Z"
+    },
+    {
+        "title": "time-travel.md · GitHub",
+        "url": "https://gist.github.com/jasonLaster/1e220992c294a571dd9b59abd084ccf2",
+        "tags": [
+            "debug",
+            "firefox",
+            "article"
+        ],
+        "content": "FirefoxのNightlyに入ったWebReplayの使い方や機能について。 一連の操作や状態を保存してブレークポイントからの状態をもどしていったり、リプレイできるデバッグ機能。バグの再現とデバッグなどに利用できる。",
+        "date": "2018-07-27T18:24:06.000Z"
+    },
+    {
+        "title": "The Twitter Engagement Report 2018 | Mention",
+        "url": "https://mention.com/en/reports/twitter/",
+        "tags": [
+            "twitter"
+        ],
+        "content": "Twitterのエンゲージメント、ハッシュタグ、Bioなどについての調査資料",
+        "date": "2018-07-27T15:38:38.000Z"
+    },
+    {
+        "title": "GitHub - toolmantim/release-drafter: Drafts your next release notes as pull requests are merged into master.",
+        "url": "https://github.com/toolmantim/release-drafter",
+        "tags": [
+            "github"
+        ],
+        "content": "probotを使ったリリースノートドラフトGitHub App",
+        "date": "2018-07-27T11:16:58.000Z"
+    },
+    {
+        "title": "thedaviddias/Front-End-Performance-Checklist: 🎮 The only Front-End Performance Checklist that runs faster than the others",
+        "url": "https://github.com/thedaviddias/Front-End-Performance-Checklist",
+        "tags": [
+            "browser",
+            "performance",
+            "document"
+        ],
+        "content": "フロントエンドのパフォーマンスチェックリスト",
+        "date": "2018-07-27T11:16:04.000Z"
+    },
+    {
+        "title": "GitHub - tc39/proposal-javascript-standard-library",
+        "url": "https://github.com/msaboff/JavaScript-Standard-Library",
+        "tags": [
+            "ECMAScript",
+            "TC39",
+            "proposal"
+        ],
+        "content": "JavaScript Standard Library Proposal",
+        "date": "2018-07-27T08:16:11.000Z"
+    },
+    {
+        "title": "Is WebAssembly the return of Java Applets &amp; Flash?",
+        "url": "https://words.steveklabnik.com/is-webassembly-the-return-of-java-applets-flash",
+        "tags": [
+            "WebAssembly"
+        ],
+        "content": "wasmとFlashやJavaなどの違い。",
+        "date": "2018-07-27T00:03:55.000Z"
+    },
+    {
+        "title": "Stitches - A HTML template generator using functional css",
+        "url": "http://stitches.hyperyolo.com/",
+        "tags": [
+            "design",
+            "Tools"
+        ],
+        "content": "D&Dでコンポーネントを組み合わせるプロトタイピングツール。 HTMLを出力する",
+        "date": "2018-07-26T23:58:57.000Z"
+    },
+    {
+        "title": "Announcing Windows 10 Insider Preview Build 17723 and Build 18204 | Windows Experience Blog",
+        "url": "https://blogs.windows.com/windowsexperience/2018/07/25/announcing-windows-10-insider-preview-build-17723-and-build-18204/",
+        "tags": [
+            "MSEdge",
+            "XSS",
+            "security"
+        ],
+        "content": "MSEdge から XSSフィルターが消える。 代替えとしてCSPを使う",
+        "date": "2018-07-26T17:31:53.000Z"
+    },
+    {
+        "title": "GitHub - nitin42/linkify-markdown: 🚀  A cli tool which automatically add references to issues, pull requests, user mentions and forks to a markdown file.",
+        "url": "https://github.com/nitin42/linkify-markdown",
+        "tags": [
+            "Markdown",
+            "github",
+            "Tools"
+        ],
+        "content": "Markdown内の IssueやPRへのリンク、メンションなどを自動的にリンク化してくれるツール",
+        "date": "2018-07-26T11:50:32.000Z"
+    },
+    {
+        "title": "ボクシル無料謄本取得サービス（BTSS）",
+        "url": "https://boxil.jp/registries/",
+        "tags": [
+            "webservice",
+            "企業"
+        ],
+        "content": "企業の登記簿謄本を代わりに取得してくれるサービス。 取得済みの登記簿謄本は取得日とPDFをダウンロードできる。",
+        "date": "2018-07-26T11:49:58.000Z"
+    },
+    {
+        "title": "Cacooの新UIを裏で支えるHeadless Chromeによる自動保存機能の実装 | 株式会社ヌーラボ(Nulab inc.)",
+        "url": "https://nulab-inc.com/ja/blog/cacoo/headless-chrome-cacoo-auto-saving/",
+        "tags": [
+            "Chrome",
+            "webservice",
+            "article"
+        ],
+        "content": "Headless Chromeで図のキャプチャを作成する話。 ECSでのAutoScale",
+        "date": "2018-07-26T11:16:08.000Z"
+    },
+    {
+        "title": "Google Search Quality Rater Guidelines Updated: Beneficial Purpose, Creator Reputation & More",
+        "url": "http://www.thesempost.com/google-search-quality-rater-guidelines-updated/",
+        "tags": [
+            "google",
+            "SEO",
+            "article"
+        ],
+        "content": "Google検索ガイドライン",
+        "date": "2018-07-26T11:12:42.000Z"
+    },
+    {
+        "title": "noteのフロントエンドをNuxt.jsへ刷新します｜こんぴゅ｜note",
+        "url": "https://note.mu/konpyu/n/n9b7bf4343514",
+        "tags": [
+            "Angular",
+            "Vue",
+            "server"
+        ],
+        "content": "AngularJS to Nuxt.js",
+        "date": "2018-07-26T08:30:22.000Z"
+    },
+    {
+        "title": "A one year PWA retrospective – Pinterest Engineering – Medium",
+        "url": "https://medium.com/@Pinterest_Engineering/f4a2f4129e05",
+        "tags": [
+            "PWA",
+            "article"
+        ],
+        "content": "PinterestのモバイルサイトのPWA化についてのタイムライン。 ログインユーザーからログアウトユーザーへの適応、GestaltとUIレイアウト、bundleサイズについてなど",
+        "date": "2018-07-25T19:57:05.000Z"
+    },
+    {
+        "title": "Z - Pattern Matching for Javascript",
+        "url": "https://z-pattern-matching.github.io/",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "パターンマッチ風",
+        "date": "2018-07-25T19:33:57.000Z"
+    },
+    {
+        "title": "Media: add method to discover whether playback is allowed before calling `play()` · Issue #3617 · whatwg/html · GitHub",
+        "url": "https://github.com/whatwg/html/issues/3617",
+        "tags": [
+            "HTML",
+            "spec",
+            "issue"
+        ],
+        "content": "自動再生が可能かどうかを判定できる属性について。 playする前に知りたいという話",
+        "date": "2018-07-25T15:32:50.000Z"
+    },
+    {
+        "title": "GitHub - jamiebuilds/write-files-atomic: Write many files atomically",
+        "url": "https://github.com/jamiebuilds/write-files-atomic",
+        "tags": [
+            "node.js",
+            "library"
+        ],
+        "content": "atomicなファイルの更新ライブラリ。 watchするプロセスも問題なく動くように作られてる",
+        "date": "2018-07-25T11:32:53.000Z"
+    },
+    {
+        "title": "Page Lifecycle API  |  Web       |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2018/07/page-lifecycle-api",
+        "tags": [
+            "JavaScript",
+            "Chrome",
+            "article",
+            "WebPlatformAPI",
+            "browser"
+        ],
+        "content": "Page Lifecycle APIについての解説。 ウェブページにライフサイクルの概念を導入する。`visibilitychange`など既存のイベントや新しく追加された`freeze`、`resume`などイベントの紹介、ライフサイクルにおけるStateについてを解説して",
+        "date": "2018-07-25T11:25:30.000Z"
+    },
+    {
+        "title": "New in Chrome 68  |  Web       |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2018/07/nic68",
+        "tags": [
+            "Chrome",
+            "ReleaseNote"
+        ],
+        "content": "Chrome 68リリース。 HTTPなサイトにはNot Secureの表示がでるように。 Page Lifecycle APIのサポート、`customElements.upgrade()`のサポート、Service WorkerにおけるHTTPキャッシュのデフォルトの挙動を変更など",
+        "date": "2018-07-25T11:20:10.000Z"
+    },
+    {
+        "title": "Google、社員へのセキュリティキー導入でフィッシング被害が0件に - Engadget 日本版",
+        "url": "https://japanese.engadget.com/2018/07/24/google-0/",
+        "tags": [
+            "google",
+            "security"
+        ],
+        "content": "yubikeyで業務アカウントのフィッシング被害がなかった事例",
+        "date": "2018-07-24T20:45:11.000Z"
+    },
+    {
+        "title": "Wordドキュメントの共有、編集・バージョン管理ツール | Hubble",
+        "url": "https://hubble-docs.com/",
+        "tags": [
+            "office",
+            "webservice",
+            "git"
+        ],
+        "content": "Wordのバージョン管理、コメント管理",
+        "date": "2018-07-24T16:42:43.000Z"
+    },
+    {
+        "title": "GitHub - imbrn/v8n: ☑️ JavaScript fluent validation library",
+        "url": "https://github.com/imbrn/v8n",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "メソッドチェーンでバリデーションルールを書けるライブラリ",
+        "date": "2018-07-24T09:39:35.000Z"
+    },
+    {
+        "title": "LLVM Backend by sebmarkbage · Pull Request #2264 · facebook/prepack · GitHub",
+        "url": "https://github.com/facebook/prepack/pull/2264",
+        "tags": [
+            "JavaScript",
+            "LLVM"
+        ],
+        "content": "prepackでLLVM bitcodeを出力できるようにする対応。 wasmやネイティブバイナリにできる。",
+        "date": "2018-07-24T08:32:42.000Z"
+    },
+    {
+        "title": "Regex DB",
+        "url": "https://rgxdb.com/",
+        "tags": [
+            "正規表現",
+            "データベース"
+        ],
+        "content": "正規表現データベース。 いろんな正規表現が掲載されてる",
+        "date": "2018-07-24T07:32:57.000Z"
+    },
+    {
+        "title": "CanJS 5.0",
+        "url": "https://www.bitovi.com/blog/canjs-5",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "CanJS 5.0リリース。",
+        "date": "2018-07-23T23:43:04.000Z"
+    },
+    {
+        "title": "Monthly Web の作り方 2018 年版 | blog.jxck.io",
+        "url": "https://blog.jxck.io/entries/2018-07-18/how-to-logging-monthly-web.html",
+        "tags": [
+            "web",
+            "spec",
+            "proposal",
+            "article"
+        ],
+        "content": "ウェブ標準に関する仕様や実装の一次情報について。 ブラウザ、WHATWG/W3C、TC39、IETFに関して、それぞれどのような形で情報が公開されているかについてまとめられている。",
+        "date": "2018-07-23T23:38:34.000Z"
+    },
+    {
+        "title": "Comparing results from specific test runs",
+        "url": "https://www.webpagetest.org/forums/showthread.php?tid=357",
+        "tags": [
+            "webservice",
+            "performance"
+        ],
+        "content": "webpagetestのcompareの使い方。 任意のテスト結果を比較できる。動画化もできる",
+        "date": "2018-07-23T16:34:36.000Z"
+    },
+    {
+        "title": "                textlint 11リリース | Web Scratch            ",
+        "url": "https://efcl.info/2018/07/23/textlint-11/",
+        "tags": [
+            "textlint",
+            "ReleaseNote"
+        ],
+        "content": "textlint 11リリース。 任意の拡張子をプラグインで扱えるようになった",
+        "date": "2018-07-23T12:27:46.000Z"
+    },
+    {
+        "title": "MIT OpenCourseWare | Free Online Course Materials ",
+        "url": "https://ocw.mit.edu/index.htm",
+        "tags": [
+            "教育",
+            "video"
+        ],
+        "content": "MITの授業の動画。字幕などもついてる",
+        "date": "2018-07-23T07:25:54.000Z"
+    },
+    {
+        "title": "GitHub - jxnblk/ok-mdx: Browser-based MDX editor",
+        "url": "https://github.com/jxnblk/ok-mdx",
+        "tags": [
+            "Markdown",
+            "jsx",
+            "editor"
+        ],
+        "content": "MDXエディタ",
+        "date": "2018-07-23T07:19:07.000Z"
+    },
+    {
+        "title": "AWSに関するありがちミスとその対策〜EC2、S3、RDS、Lambda、CloudFrontの場合 - エンジニアHub｜若手Webエンジニアのキャリアを考える！",
+        "url": "https://employment.en-japan.com/engineerhub/entry/2018/07/17/110000",
+        "tags": [
+            "aws",
+            "article"
+        ],
+        "content": "AWSの基本的なサービスの特徴や注意点について",
+        "date": "2018-07-23T07:17:10.000Z"
+    },
+    {
+        "title": "GitHub - ramhejazi/draxt: draxt.js – NodeList/jQuery-like package for File System (node.js)",
+        "url": "https://github.com/ramhejazi/draxt",
+        "tags": [
+            "node.js",
+            "library"
+        ],
+        "content": "Node.jsの`fs`を配列などのようにメソッドチェーンで操作できるライブラリ",
+        "date": "2018-07-22T23:25:12.000Z"
+    },
+    {
+        "title": "Operationalizing Node.js for Server Side Rendering – Airbnb Engineering & Data Science – Medium",
+        "url": "https://medium.com/airbnb-engineering/c5ba718acfc9",
+        "tags": [
+            "React",
+            "node.js",
+            "article"
+        ],
+        "content": "AirbnbにおけるReactのサーバサイドレンダリングのパフォーマンスについての記事。JavaScriptがどのように非同期処理をしているかやボトルネックとなる場所についてなど",
+        "date": "2018-07-22T23:22:54.000Z"
+    },
+    {
+        "title": "PWACompat: the Web App Manifest for all browsers  |  Web       |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2018/07/pwacompat",
+        "tags": [
+            "PWA",
+            "Tools",
+            "article",
+            "polyfill"
+        ],
+        "content": "Web App Manifestから古いSafariやレガシーブラウザ向けにメタ要素を追加するライブラリ。",
+        "date": "2018-07-22T23:08:47.000Z"
+    },
+    {
+        "title": "普通のHTMLの書き方",
+        "url": "https://hail2u.net/documents/html-best-practices.html#wrap-form-control-with-label-element",
+        "tags": [
+            "HTML",
+            "document"
+        ],
+        "content": "「フォームコントロールはlabel要素で括る」 labelとinputの対応について。 for属性を使うべきかについて",
+        "date": "2018-07-22T20:01:30.000Z"
+    },
+    {
+        "title": "普通のHTMLの書き方",
+        "url": "https://hail2u.net/documents/html-best-practices.html",
+        "tags": [
+            "HTML",
+            "HTML5",
+            "document",
+            "spec"
+        ],
+        "content": "HTMLの避けるべき非推奨な書き方、簡潔な書き方、セマンティック、アクセシビリティを考慮した書き方などについてのドキュメント。 それぞれの項目に悪い例と良い例つきで解説されている。よくある記述の仕様的な解説",
+        "date": "2018-07-22T20:00:49.000Z"
+    },
+    {
+        "title": "Time travel debugging: A step-by-step guide. - Jason Laster - JSConf EU 2018",
+        "url": "http://www.youtube.com/watch?v=rDq1AN1kSn4",
+        "tags": [
+            "firefox",
+            "debug",
+            "video"
+        ],
+        "content": "タイムトラベルデバッグについて",
+        "date": "2018-07-22T16:10:32.000Z"
+    },
+    {
+        "title": "GitHub - azu/har-extractor: A CLI that extract har file to directory.",
+        "url": "https://github.com/azu/har-extractor",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "HTTP"
+        ],
+        "content": "HARファイルの中身をディレクトリに出力するツール",
+        "date": "2018-07-22T15:40:44.000Z"
+    },
+    {
+        "title": "情報教育指導力向上支援事業（諸外国におけるプログラミング教育に関する調査研究）｜学校教育分野｜教育の情報化",
+        "url": "http://jouhouka.mext.go.jp/school/programming_syogaikoku/programming_syogaikoku.html",
+        "tags": [
+            "education",
+            "document"
+        ],
+        "content": "海外のプログラミング教育についての調査資料。 イングランド、エストニア、フランス、ドイツ、ロシア、アメリカ、韓国、上海、イスラエル、ドイツなど",
+        "date": "2018-07-22T10:57:54.000Z"
+    },
+    {
+        "title": "Into the Borg – SSRF inside Google production network | OpnSec",
+        "url": "https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/",
+        "tags": [
+            "google",
+            "JavaScript",
+            "security"
+        ],
+        "content": "Google Gajaの脆弱性からGoogle内部ネットワークでSSRFによって不正なリクエストができた脆弱性について。",
+        "date": "2018-07-22T10:54:20.000Z"
+    },
+    {
+        "title": "GitHub - GoogleChromeLabs/ndb: ndb is an improved debugging experience for Node.js, enabled by Chrome DevTools",
+        "url": "https://github.com/GoogleChromeLabs/ndb",
+        "tags": [
+            "Chrome",
+            "node.js",
+            "Tools"
+        ],
+        "content": "Puppeteerを使ったNode.jsのデバッガーツール。 Node.jsのアプリに対してChrome開発者ツールでデバッグできる。 `node --inspect`に比べてコンソールパネルでの実行、ブレークポイントの対応、プロファイル周りなどが追加されている",
+        "date": "2018-07-22T10:43:13.000Z"
+    },
+    {
+        "title": "React Native for Webをプロダクションで使ってみました - WaterCell Developer's Blog",
+        "url": "https://watercelldev.hatenablog.jp/entry/2018/07/18/122604",
+        "tags": [
+            "React",
+            "ios",
+            "Android"
+        ],
+        "content": "React Native for Webを使ったクロスプラットフォーム開発。 Storybookでの確認フロー",
+        "date": "2018-07-22T10:39:00.000Z"
+    },
+    {
+        "title": "What's Happening With the Pipeline (|>) Proposal? · Babel",
+        "url": "https://babeljs.io/blog/2018/07/19/whats-happening-with-the-pipeline-proposal",
+        "tags": [
+            "babel",
+            "JavaScript",
+            "article"
+        ],
+        "content": "https://github.com/tc39/proposal-pipeline-operator のBabel pluginについて",
+        "date": "2018-07-22T10:35:34.000Z"
+    },
+    {
+        "title": "GitHub - nathan/pax: The fastest JavaScript bundler in the galaxy.",
+        "url": "https://github.com/nathan/pax",
+        "tags": [
+            "Rust",
+            "JavaScript",
+            "bundler",
+            "Tools"
+        ],
+        "content": "Rust製のJavaScript Bundler",
+        "date": "2018-07-21T18:01:07.000Z"
+    },
+    {
+        "title": "Element.toggleAttribute | blog.jxck.io",
+        "url": "https://blog.jxck.io/entries/2018-07-20/toggle-attribute.html",
+        "tags": [
+            "DOM",
+            "JavaScript"
+        ],
+        "content": "属性の値をトグルをする`Element.prototype.toggleAttribute`について",
+        "date": "2018-07-21T11:28:37.000Z"
+    },
+    {
+        "title": "GitHub - deepsweet/ekst: 🔡 Append, prepend, replace or remove basename extensions",
+        "url": "https://github.com/deepsweet/ekst",
+        "tags": [
+            "node.js",
+            "library"
+        ],
+        "content": "ファイルの拡張子の操作ライブラリ",
+        "date": "2018-07-21T10:29:58.000Z"
+    },
+    {
+        "title": "Support the native graal packages by ChadKillingsworth · Pull Request #90 · google/closure-compiler-npm · GitHub",
+        "url": "https://github.com/google/closure-compiler-npm/pull/90",
+        "tags": [
+            "JavaScript",
+            "Java",
+            "news",
+            "Tools"
+        ],
+        "content": "Closure Compilerにネイティブバイナリが同梱された(macOSとLinux)",
+        "date": "2018-07-20T23:47:20.000Z"
+    },
+    {
+        "title": "続・SOLIDの原則ってどんなふうに使うの？ 〜オープン・クローズドの原則 センパイのコーディングノート編〜 - Speaker Deck",
+        "url": "https://speakerdeck.com/hidenorigoto/sok-solidfalseyuan-ze-tutedonnahuunishi-ufalse-opunkurozudofalseyuan-ze-senpaifalsekodeingufalsetobian",
+        "tags": [
+            "OOP",
+            "slide"
+        ],
+        "content": "SOLIDの原則の解説スライド",
+        "date": "2018-07-20T20:22:01.000Z"
+    },
+    {
+        "title": "Ember.js - Ember 3.3 Released",
+        "url": "https://emberjs.com/blog/2018/07/16/ember-3-3-released.html",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Ember 3.3リリース。 jQueryの依存をオプショナルにできるように",
+        "date": "2018-07-20T18:44:31.000Z"
+    },
+    {
+        "title": "https://www.bloomberg.com/news/articles/2018-07-19/google-team-is-said-to-plot-android-successor-draw-skepticism",
+        "url": "https://www.bloomberg.com/news/articles/2018-07-19/google-team-is-said-to-plot-android-successor-draw-skepticism",
+        "tags": [
+            "google",
+            "opinion"
+        ],
+        "content": "\"It’s a senior-engineer retention project.\"",
+        "date": "2018-07-20T16:34:32.000Z"
+    },
+    {
+        "title": "証拠保全ガイドライン第７版 | デジタル・フォレンジック研究会",
+        "url": "https://digitalforensic.jp/home-act-products-df-guideline-7th/",
+        "tags": [
+            "security",
+            "PDF"
+        ],
+        "content": "デジタルフォレンジックガイドライン。 データの保存や調査、法律などについて",
+        "date": "2018-07-20T11:46:46.000Z"
+    },
+    {
+        "title": "Compiler in JavaScript using ANTLR – DailyJS – Medium",
+        "url": "https://medium.com/dailyjs/9ec53fd2780f",
+        "tags": [
+            "JavaScript",
+            "article",
+            "AST"
+        ],
+        "content": "ANTLRを使ってコンパイラを作る話。 ECMAScriptを入力にしてPythonのコードを出力するコンパイラをどうのように作るかについて",
+        "date": "2018-07-20T10:32:20.000Z"
+    },
+    {
+        "title": "エンジニアが記事を書くためのブログやサービスまとめ - Crieit",
+        "url": "https://crieit.net/posts/18b8ea304b981602adfb225487aa7b4f",
+        "tags": [
+            "blog"
+        ],
+        "content": "QiitaやMedium、dev.toなどのブログポストサービスについて。 クロスポストが可能なサイトについて",
+        "date": "2018-07-20T10:23:25.000Z"
+    },
+    {
+        "title": "Cloud Text-to-Speech - 音声合成  |  Cloud Text-to-Speech API       |  Google Cloud",
+        "url": "https://cloud.google.com/text-to-speech/?hl=ja",
+        "tags": [
+            "google"
+        ],
+        "content": "GoogleのText to speech。 英単語のカタカナ読みができる",
+        "date": "2018-07-20T10:08:05.000Z"
+    },
+    {
+        "title": "XSS protection disappears from Microsoft Edge | The Daily Swig",
+        "url": "https://portswigger.net/daily-swig/xss-protection-disappears-from-microsoft-edge",
+        "tags": [
+            "MSEdge",
+            "XSS"
+        ],
+        "content": "MSEdgeでXSSフィルターがデフォルトオフになったビルドが公開されてるっぽい?",
+        "date": "2018-07-20T07:51:38.000Z"
+    },
+    {
+        "title": "Mobile Safari の PWA 対応で変わるのは企業向けアプリ - WebサイトやCMSの静的化を御支援するfeedtailor社長ブログ",
+        "url": "https://blog.feedtailor.jp/2017/09/26/pwaoniosb2b/",
+        "tags": [
+            "PWA",
+            "browser",
+            "safari"
+        ],
+        "content": "企業内アプリは管理ツールで一括でインストールできるという話",
+        "date": "2018-07-20T00:01:47.000Z"
+    },
+    {
+        "title": "WordPressを静的サイト化する静的化技術のリーディングカンパニー：株式会社フィードテイラー",
+        "url": "https://www.feedtailor.jp/report_aossl_201807/",
+        "tags": [
+            "japanese",
+            "企業",
+            "HTTPS"
+        ],
+        "content": "日本の上場企業のHTTPS対応調査レポート。 - 常時SSL化 - 証明書分類 - 業種別",
+        "date": "2018-07-19T23:59:44.000Z"
+    },
+    {
+        "title": "GitHub - cyclejs/react: Utilities to interoperate between Cycle.js and React",
+        "url": "https://github.com/cyclejs/react",
+        "tags": [
+            "React"
+        ],
+        "content": "Cycle.jsのReactバインディング",
+        "date": "2018-07-19T22:57:20.000Z"
+    },
+    {
+        "title": " 853154 -  Add deprecation warning for nonsecurely delivered cookies -   chromium -   Monorail ",
+        "url": "https://bugs.chromium.org/p/chromium/issues/detail?id=853154",
+        "tags": [
+            "Chrome",
+            "security"
+        ],
+        "content": "Chrome 70でHTTPでのクッキーのやり取りをすると開発者コンソールに警告を出す予定",
+        "date": "2018-07-19T22:17:19.000Z"
+    },
+    {
+        "title": "CircleCI 2.0でのスローテスト（テスト遅い）問題対処法を思いつくだけ書き出す - Qiita",
+        "url": "https://qiita.com/terrierscript/items/80dede32cc7935193b70",
+        "tags": [
+            "CI",
+            "article"
+        ],
+        "content": "Circle CIのパイプラインの最適化などについて",
+        "date": "2018-07-19T21:17:20.000Z"
+    },
+    {
+        "title": "JSONの歴史 - Speaker Deck",
+        "url": "https://speakerdeck.com/circled9/jsonfalseli-shi",
+        "tags": [
+            "JSON",
+            "歴史",
+            "slide"
+        ],
+        "content": "JSONの仕様や歴史",
+        "date": "2018-07-19T21:17:06.000Z"
+    },
+    {
+        "title": "Overview of ClickHouse Architecture - ClickHouse Documentation",
+        "url": "https://clickhouse.yandex/docs/en/development/architecture/",
+        "tags": [
+            "データベース"
+        ],
+        "content": "更新ができないデータハウス向けのDBMSのClickHouseのアーキテクチャ",
+        "date": "2018-07-19T21:04:24.000Z"
+    },
+    {
+        "title": "GitHub - travis-ci/travis-conditions: Boolean language for conditional builds, stages, jobs",
+        "url": "https://github.com/travis-ci/travis-conditions#cli",
+        "tags": [
+            "TravisCI",
+            "console",
+            "Tools"
+        ],
+        "content": "Travis CIのCondition式のテストツール",
+        "date": "2018-07-19T17:23:42.000Z"
+    },
+    {
+        "title": "Connection-Aware Components | Max Böck - Frontend Web Developer",
+        "url": "https://mxb.at/blog/connection-aware-components/",
+        "tags": [
+            "JavaScript",
+            "article",
+            "React"
+        ],
+        "content": "Network Information APIや`navigator.onLine`などを使った接続情報を考慮したReactコンポーネントの作り方について",
+        "date": "2018-07-19T17:22:17.000Z"
+    },
+    {
+        "title": "WebComponentsへの気持ち - console.lealog();",
+        "url": "https://lealog.hateblo.jp/entry/2018/07/18/112638",
+        "tags": [
+            "WebComponents"
+        ],
+        "content": "WebComponentの制限や役割について",
+        "date": "2018-07-19T17:19:21.000Z"
+    },
+    {
+        "title": "分散システムの限界について知ろう",
+        "url": "https://www.slideshare.net/ShingoOmura/ss-103946354",
+        "tags": [
+            "algorithm",
+            "slide"
+        ],
+        "content": "分散システムのFLP ImpossibilityとCAP定理について。 不可能性は証明されているため、現実的なコーナーケースなど存在するという話",
+        "date": "2018-07-19T16:55:11.000Z"
+    },
+    {
+        "title": "console.timeLog",
+        "url": "https://davidwalsh.name/console-timelog",
+        "tags": [
+            "debug",
+            "JavaScript"
+        ],
+        "content": "`console.timeLog`について。 `console.time`と`console.timeEnd`の間でログを経過時間をとるのに使う",
+        "date": "2018-07-19T14:56:52.000Z"
+    },
+    {
+        "title": "Node v10.7.0 (Current) | Node.js",
+        "url": "https://nodejs.org/en/blog/release/v10.7.0/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node.js 10.7.0リリース。 `console.timeLog()`の実装、`process.hrtime.bigint()`の実装、`--title`コマンドライン引数でプロセスのタイトルを指定できるようになるなど",
+        "date": "2018-07-19T14:53:49.000Z"
+    },
+    {
+        "title": "Release Notes for Safari Technology Preview 61 | WebKit",
+        "url": "https://webkit.org/blog/8365/release-notes-for-safari-technology-preview-61/",
+        "tags": [
+            "safari",
+            "ReleaseNote"
+        ],
+        "content": "Safari Technology Preview 61リリース。 `Element.toggleAttribute`のサポート、`fetch`の`credentials`のデフォルト値を`same-origin`へ変更など",
+        "date": "2018-07-19T11:06:02.000Z"
+    },
+    {
+        "title": "                JXAをTypeScriptでコード補完して書く環境やNode.jsから実行する環境を作った | Web Scratch            ",
+        "url": "https://efcl.info/2018/07/18/jxa-typescript-node/",
+        "tags": [
+            "JavaScript",
+            "apple",
+            "TypeScript",
+            "node.js"
+        ],
+        "content": "JXAをTypeScript + Node.jsで書く/実行するパッケージについて。 macOSのJXA(JavaScript for Automation)の開発環境",
+        "date": "2018-07-19T09:57:14.000Z"
+    },
+    {
+        "title": "GitHub - unicode-org/icu: The new home of the ICU project source code.",
+        "url": "https://github.com/unicode-org/icu",
+        "tags": [
+            "Unicode"
+        ],
+        "content": "ICUのリポジトリ",
+        "date": "2018-07-19T08:37:29.000Z"
+    },
+    {
+        "title": "Designing a GraphQL API · GitHub",
+        "url": "https://gist.github.com/swalkinshaw/3a33e2d292b60e68fcebe12b62bbb3e2",
+        "tags": [
+            "GraphQL",
+            "tutorial"
+        ],
+        "content": "ShopifyのGraphQL APIのデザインチュートリアル。 GraphQLのAPIをどのように設計するかについてのガイド。",
+        "date": "2018-07-18T10:53:17.000Z"
+    },
+    {
+        "title": "GitHub - jleyba/js-dossier: A JavaScript documentation generation tool.",
+        "url": "https://github.com/jleyba/js-dossier",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "JSDocパーサライブラリ。",
+        "date": "2018-07-18T10:36:12.000Z"
+    },
+    {
+        "title": "OpenDataStructures.jp",
+        "url": "https://sites.google.com/view/open-data-structures-ja",
+        "tags": [
+            "program",
+            "algorithm",
+            "book"
+        ],
+        "content": "「Open Data Structures(みんなのデータ構造)」の日本語訳",
+        "date": "2018-07-18T00:47:55.000Z"
+    },
+    {
+        "title": "http://www.meti.go.jp/committee/materials/downloadfiles/g50913a45j.pdf",
+        "url": "http://www.meti.go.jp/committee/materials/downloadfiles/g50913a45j.pdf",
+        "tags": [
+            "spec"
+        ],
+        "content": "WTO/TBT協定の分かりやすい解説",
+        "date": "2018-07-17T23:40:04.000Z"
+    },
+    {
+        "title": "Stencila",
+        "url": "https://stenci.la/",
+        "tags": [
+            "document"
+        ],
+        "content": "spreadsheetとjupyterみたいな感じ",
+        "date": "2018-07-17T22:43:07.000Z"
+    },
+    {
+        "title": "本障害の概要と原因についてのご報告 ｜Zenlogicサポートサイト[ファーストサーバ]",
+        "url": "https://zenlogic.jp/news/status/syogai/cause/",
+        "tags": [
+            "webservice"
+        ],
+        "content": "Zenlogicのストレージシステムの障害報告書。 障害復旧まで約1ヶ月。 Yahooのストレージシステムを利用しキャパシティオーバーによる高負荷状態、これに対応する対応のミスでの2次的な障害によって長期化",
+        "date": "2018-07-17T15:39:07.000Z"
+    },
+    {
+        "title": "メンテナンス・障害情報・機能追加｜さくらインターネット公式サポートサイト",
+        "url": "http://support.sakura.ad.jp/mainte/mainteentry.php?id=22606",
+        "tags": [
+            "webservice"
+        ],
+        "content": "さくらのクラウドのオブジェクトストレージの障害報告書。障害復旧まで約1ヶ月。 システムの高負荷を避けるための対応、システムログの分析などで長期化",
+        "date": "2018-07-17T15:36:14.000Z"
+    },
+    {
+        "title": "オブジェクトストレージ障害復旧のお知らせ - ニフクラ Information",
+        "url": "http://info.biz.nifty.com/cloud/2018/02/post-103.html",
+        "tags": [
+            "webservice"
+        ],
+        "content": "ニフクラのオブジェクトストレージ障害の報告書。 Cephにパッチをあてるなど、復旧完了まで約1ヶ月ほど https://www.orangeitems.com/entry/2018/03/09/160025",
+        "date": "2018-07-17T15:30:06.000Z"
+    },
+    {
+        "title": "Reversee - Reverse Proxy Web Debugger",
+        "url": "https://www.reversee.ninja/",
+        "tags": [
+            "Electron",
+            "proxy",
+            "software"
+        ],
+        "content": "Electron製のデバッグProxy。 JavaScriptでinterceptの処理を書ける",
+        "date": "2018-07-17T14:44:05.000Z"
+    },
+    {
+        "title": "GitHub - bvaughn/react-flame-graph: React component for visualizing profiling data",
+        "url": "https://github.com/bvaughn/react-flame-graph",
+        "tags": [
+            "React",
+            "library"
+        ],
+        "content": "Reactでflameグラフを作るコンポーネント",
+        "date": "2018-07-17T11:12:41.000Z"
+    },
+    {
+        "title": "Redirecting you to https://twitterformac.com",
+        "url": "https://www.boxysuite.com/twitter.html",
+        "tags": [
+            "twitter",
+            "mac",
+            "software"
+        ],
+        "content": "mac向けのTwitterクライアント。 Twitter Lite + 投稿UI",
+        "date": "2018-07-17T09:38:29.000Z"
+    },
+    {
+        "title": "Release 9.0 “A Mari Usque Ad Mare” · postcss/autoprefixer · GitHub",
+        "url": "https://github.com/postcss/autoprefixer/releases/tag/9.0.0",
+        "tags": [
+            "CSS",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "Autoprefixer 9.0、Browserslist 4.0、PostCSS 7.0.0リリース。 Node.js 4のサポート終了など",
+        "date": "2018-07-17T09:34:20.000Z"
+    },
+    {
+        "title": "Web Platform Security PhD Summit @ Google Munich - Speaker Deck",
+        "url": "https://speakerdeck.com/mikewest/web-platform-security-phd-summit-at-google-munich",
+        "tags": [
+            "browser",
+            "Chrome",
+            "security",
+            "slide"
+        ],
+        "content": "CORB、Cross-Origin Resource Policy、Cross-Origin Window Policy、Sec-Metadata、Early Hintなどについて",
+        "date": "2018-07-17T00:02:13.000Z"
+    },
+    {
+        "title": "The npm Blog — Incident report: npm, Inc. operations incident of...",
+        "url": "https://blog.npmjs.org/post/175824896885/incident-report-npm-inc-operations-incident-of",
+        "tags": [
+            "npm",
+            "security"
+        ],
+        "content": "eslint-scopeの問題で影響を受けた可能性があるアカウントは4500で、盗まれたものが利用された形跡はなし。 念の為、すべてのtokenを無効化した",
+        "date": "2018-07-16T23:57:22.000Z"
+    },
+    {
+        "title": "GitHub - kozhevnikov/proxymise: Chainable Promise Proxy",
+        "url": "https://github.com/kozhevnikov/proxymise",
+        "tags": [
+            "Promises",
+            "proxy",
+            "library"
+        ],
+        "content": "`then`なしでPromiseをchainするProxyライブラリ",
+        "date": "2018-07-16T23:55:46.000Z"
+    },
+    {
+        "title": "Life of a Pixel 2018 - Google スライド",
+        "url": "https://docs.google.com/presentation/d/1boPxbgNrTU0ddsc144rcXayGA_WF53k96imRH8Mp34Y/mobilepresent#slide=id.p",
+        "tags": [
+            "browser",
+            "Chrome",
+            "slide"
+        ],
+        "content": "Chromeのレンダリングの仕組みについてのスライド。 DOM、Style、Layout、Paint、Rasterization。 変更があったときに再レンダリングやCompositingなどの処理の流れなどについて。",
+        "date": "2018-07-16T23:39:05.000Z"
+    },
+    {
+        "title": "everyRFC",
+        "url": "https://everyrfc.org/",
+        "tags": [
+            "spec",
+            "search"
+        ],
+        "content": "HTTP、DNS、IETFなどのRFCを検索できるサービス。",
+        "date": "2018-07-16T20:49:46.000Z"
+    },
+    {
+        "title": "GitHub - hodgef/simple-keyboard: Javascript Virtual Keyboard - Customizable, responsive and lightweight",
+        "url": "https://github.com/hodgef/simple-keyboard",
+        "tags": [
+            "JavaScript",
+            "キーボード",
+            "library"
+        ],
+        "content": "ビジュアルキーボード",
+        "date": "2018-07-16T13:46:29.000Z"
+    },
+    {
+        "title": "GitHub - teadjs/tead: Lighting the way to simpler testing",
+        "url": "https://github.com/teadjs/tead",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "library"
+        ],
+        "content": "シンプルなテストフレームワーク。 `[actual, expected]`の組み合わせを返すだけでテストできる。",
+        "date": "2018-07-16T09:17:30.000Z"
+    },
+    {
+        "title": "format-message/packages/message-format at master · format-message/format-message · GitHub",
+        "url": "https://github.com/format-message/format-message/tree/master/packages/message-format",
+        "tags": [
+            "i18n",
+            "library",
+            "polyfill"
+        ],
+        "content": "Intl.MessageFormatのpolyfill",
+        "date": "2018-07-15T22:51:27.000Z"
+    },
+    {
+        "title": "GitHub - messageformat/messageformat: ICU MessageFormat for Javascript - i18n Plural and Gender Capable Messages",
+        "url": "https://github.com/messageformat/messageformat",
+        "tags": [
+            "i18n",
+            "JavaScript",
+            "library"
+        ],
+        "content": "ICUメッセージフォーマッター",
+        "date": "2018-07-15T22:49:24.000Z"
+    },
+    {
+        "title": "GitHub - format-message/format-message: Internationalization Made Easy",
+        "url": "https://github.com/format-message/format-message",
+        "tags": [
+            "JavaScript",
+            "i18n",
+            "library"
+        ],
+        "content": "ICUメッセージフォーマッターライブラリ",
+        "date": "2018-07-15T22:46:02.000Z"
+    },
+    {
+        "title": "Internationalization  · Issue #274 · OAI/OpenAPI-Specification · GitHub",
+        "url": "https://github.com/OAI/OpenAPI-Specification/issues/274",
+        "tags": [
+            "API",
+            "i18n"
+        ],
+        "content": "SwaggerのOpenAPI Specificationはi18nをサポートしてないIssue",
+        "date": "2018-07-15T22:06:37.000Z"
+    },
+    {
+        "title": "vscode-extension-samples/i18n-sample at master · Microsoft/vscode-extension-samples · GitHub",
+        "url": "https://github.com/Microsoft/vscode-extension-samples/tree/master/i18n-sample",
+        "tags": [
+            "VSCode",
+            "i18n"
+        ],
+        "content": "VSCodeのローカライズの仕組み https://www.npmjs.com/package/vscode-nls",
+        "date": "2018-07-15T20:42:09.000Z"
+    },
+    {
+        "title": "Parallel vs concurrent in Node.js",
+        "url": "https://bytearcher.com/articles/parallel-vs-concurrent/",
+        "tags": [
+            "JavaScript",
+            "program"
+        ],
+        "content": "ParallelとConcurrentの違いの図",
+        "date": "2018-07-15T14:12:41.000Z"
+    },
+    {
+        "title": "Memory leaks in loops with Promise · Issue #6673 · nodejs/node · GitHub",
+        "url": "https://github.com/nodejs/node/issues/6673",
+        "tags": [
+            "Promises",
+            "issue"
+        ],
+        "content": "Promiseの仕様的なメモリリークについて。ループとPromiseの再起はchainの作りによってダメになる。 asyncを使うことで解決できる。",
+        "date": "2018-07-15T11:29:43.000Z"
+    },
+    {
+        "title": "GitHub - joshwcomeau/guppy: 🐠A friendly application manager and task runner for React.js",
+        "url": "https://github.com/joshwcomeau/guppy",
+        "tags": [
+            "React",
+            "GUI",
+            "Tools",
+            "software"
+        ],
+        "content": "React向けのアプリケーション管理、タスク実行を行えるGUIアプリ。",
+        "date": "2018-07-15T10:44:06.000Z"
+    },
+    {
+        "title": "dubzzz/fast-check: Property based testing framework for JavaScript (like QuickCheck) written in TypeScript",
+        "url": "https://github.com/dubzzz/fast-check",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "library",
+            "TypeScript"
+        ],
+        "content": "Property based testingを行うテストライブラリ。 値のパターンや組み合わせを定義してランダムな値を生成してテストできる。 またテストが失敗した際には`seed`値を使って同じ組み合わせを再現してテストできる。",
+        "date": "2018-07-15T08:06:58.000Z"
+    },
+    {
+        "title": "スクラム向けプロジェクトマネジメントツールを比較した結果 Zube.io を推してみる - Witch on the Other Shore",
+        "url": "https://iktakahiro.hatenablog.com/entry/2018/07/12/192213",
+        "tags": [
+            "github",
+            "issue"
+        ],
+        "content": "GitHub Issueと連携するスクラム向けのツールであるzube.ioについて",
+        "date": "2018-07-15T07:44:30.000Z"
+    },
+    {
+        "title": "関係情報：情報通信関連：情報通信白書",
+        "url": "http://www.soumu.go.jp/johotsusintokei/whitepaper/index.html",
+        "tags": [
+            "japanese"
+        ],
+        "content": "情報通信白書。 ICTについての統計など",
+        "date": "2018-07-14T23:29:36.000Z"
+    },
+    {
+        "title": "EFF to Japan: Reject Website Blocking | Electronic Frontier Foundation",
+        "url": "https://www.eff.org/deeplinks/2018/07/eff-japan-reject-website-blocking",
+        "tags": [
+            "法律"
+        ],
+        "content": "サイトブロッキングについてEFF",
+        "date": "2018-07-14T23:20:40.000Z"
+    },
+    {
+        "title": "Out-of-Process iframes (OOPIFs) - The Chromium Projects",
+        "url": "https://www.chromium.org/developers/design-documents/oop-iframes",
+        "tags": [
+            "Chrome",
+            "security"
+        ],
+        "content": "Site Isolationプロジェクトの実装でも Out-of-Process iframes (OOPIFs) について。 iframeが親子であってもレンダラープロセスを分離する",
+        "date": "2018-07-14T23:18:40.000Z"
+    },
+    {
+        "title": "Site Isolation for web developers  |  Web       |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2018/07/site-isolation",
+        "tags": [
+            "Chrome",
+            "browser",
+            "security"
+        ],
+        "content": "Chrome 67でデフォルト有効化されたSite Isolationについて。 レンダラープロセスを分離することで、サイドチャネル攻撃やオリジン超えの攻撃によって機密情報が盗まれるのを防止する。 CORB、iframeなどにおけるloadとunloadにおけ",
+        "date": "2018-07-14T23:16:16.000Z"
+    },
+    {
+        "title": "Release v1.6.0 · GoogleChrome/puppeteer · GitHub",
+        "url": "https://github.com/GoogleChrome/puppeteer/releases/tag/v1.6.0",
+        "tags": [
+            "Chrome",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Puppeteer v1.6.0リリース。 `page.waitForRequest`と`page.waitForResponse`のサポート。 要素が現在のviewportに表示されているかを判定する`elementHandle.isIntersectingViewport`の追加など",
+        "date": "2018-07-14T20:39:44.000Z"
+    },
+    {
+        "title": "https://www.amazon.com/dp/1492037656/",
+        "url": "https://www.amazon.com/dp/1492037656/",
+        "tags": [
+            "TypeScript",
+            "book"
+        ],
+        "content": "2019年4月4日発売 TypeScriptでのアプリケーション開発についての書籍",
+        "date": "2018-07-14T20:05:26.000Z"
+    },
+    {
+        "title": "Announcing TypeScript 3.0 RC | TypeScript",
+        "url": "https://blogs.msdn.microsoft.com/typescript/2018/07/12/announcing-typescript-3-0-rc/",
+        "tags": [
+            "TypeScript",
+            "ReleaseNote"
+        ],
+        "content": "TypeScript 3.0 RCリリース。 monorepo向けのサポートがメイン。 Project Referencesによりmonorepo内の別パッケージの型定義を参照できるようになり、Build modeによって関連するパッケージのビルドをインクリメンタルに行える。 tuples型",
+        "date": "2018-07-14T19:56:42.000Z"
+    },
+    {
+        "title": "tsc --build / Project References Feedback & Discussion · Issue #25600 · Microsoft/TypeScript · GitHub",
+        "url": "https://github.com/Microsoft/TypeScript/issues/25600",
+        "tags": [
+            "TypeScript",
+            "issue"
+        ],
+        "content": "TypeScript + monorepoのメタIssue",
+        "date": "2018-07-14T19:45:32.000Z"
+    },
+    {
+        "title": "GitHub - RyanCavanaugh/learn-a: Sample repo using lerna with TypeScript project references",
+        "url": "https://github.com/RyanCavanaugh/learn-a",
+        "tags": [
+            "TypeScript"
+        ],
+        "content": "Lerna + TypeScript Project Referenceのサンプル",
+        "date": "2018-07-14T19:41:06.000Z"
+    },
+    {
+        "title": "The npm Blog — v6.2.0",
+        "url": "https://blog.npmjs.org/post/175871462900/v620",
+        "tags": [
+            "npm",
+            "ReleaseNote"
+        ],
+        "content": "npm 6.2.0リリース。 `npm audit`にawkなどでパースしやすい`--parseable`オプションの追加、` sign-git-commit`の設定を追加など",
+        "date": "2018-07-14T19:00:25.000Z"
+    },
+    {
+        "title": "GitHub - lukeed/kleur: The fastest Node.js library for formatting terminal text with ANSI colors~!",
+        "url": "https://github.com/lukeed/kleur",
+        "tags": [
+            "node.js",
+            "library"
+        ],
+        "content": "ANSI colorなコンソール表示ライブラリ。 chalk的な感じ",
+        "date": "2018-07-14T18:41:38.000Z"
+    },
+    {
+        "title": "The npm Blog — Two-factor authentication protection for packages",
+        "url": "https://blog.npmjs.org/post/175861857230/two-factor-authentication-protection-for-packages",
+        "tags": [
+            "npm",
+            "security"
+        ],
+        "content": "npmでパッケージごとに2要素認証を設定できるようになる。",
+        "date": "2018-07-14T14:26:25.000Z"
+    },
+    {
+        "title": "GitHub - azu/expected-exit-status: A CLI check that command exit status is expected.",
+        "url": "https://github.com/azu/expected-exit-status",
+        "tags": [
+            "console",
+            "Tools",
+            "testing"
+        ],
+        "content": "指定したコマンドが指定したexit statusで終了するかをテストするCLI",
+        "date": "2018-07-13T22:16:17.000Z"
+    },
+    {
+        "title": "GitHub - jasonwilliams/proposal-promise-allSettled: ECMAScript Proposal, specs, and reference implementation for Promise.allSettled",
+        "url": "https://github.com/jasonwilliams/proposal-promise-allSettled",
+        "tags": [
+            "ECMAScript",
+            "proposal"
+        ],
+        "content": "`Promise.allSettled` proposal",
+        "date": "2018-07-13T21:05:35.000Z"
+    },
+    {
+        "title": "Fragmented MP4のおはなし - Speaker Deck",
+        "url": "https://speakerdeck.com/yaminoma/fragmented-mp4falseohanasi",
+        "tags": [
+            "HLS",
+            "video",
+            "slide"
+        ],
+        "content": "fmp4についてのスライド",
+        "date": "2018-07-13T17:55:09.000Z"
+    },
+    {
+        "title": "Vue.js Cheat Sheet",
+        "url": "https://flaviocopes.com/vue-cheat-sheet/",
+        "tags": [
+            "Vue",
+            "チートシート"
+        ],
+        "content": "Vueチートシート",
+        "date": "2018-07-13T17:08:16.000Z"
+    },
+    {
+        "title": "Support 2FA `--otp=123456` · Issue #1091 · lerna/lerna · GitHub",
+        "url": "https://github.com/lerna/lerna/issues/1091",
+        "tags": [
+            "npm"
+        ],
+        "content": "lernaみたいな長いpublishは2要素認証のOTPがうまく動かない問題",
+        "date": "2018-07-13T11:40:38.000Z"
+    },
+    {
+        "title": "Postmortem for Malicious Packages Published on July 12th, 2018 - ESLint - Pluggable JavaScript linter",
+        "url": "https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes",
+        "tags": [
+            "ESLint",
+            "npm",
+            "security",
+            "node.js"
+        ],
+        "content": "`.npmrc`の内容を盗み取る`eslint-scope@3.7.2`と`eslint-config-eslint@5.0.2`が公開された問題についてのレポート。 パスワードリスト攻撃で取られてたアカウントのtokenから直接publishされ、その後npm incによって全ユーザーのtokenがリセッ",
+        "date": "2018-07-13T09:01:35.000Z"
+    },
+    {
+        "title": "npm, Inc. Status",
+        "url": "https://status.npmjs.org/incidents/dn7c1fgrr7ng",
+        "tags": [
+            "npm",
+            "security"
+        ],
+        "content": "2018-07-12 12:30 UTC以前に発行されたnpmのtokenはすべて無効化された",
+        "date": "2018-07-13T07:54:11.000Z"
+    },
+    {
+        "title": "GitHub - ruimarinho/yubikey-handbook: A collection of guidelines, use cases and experiments with the Yubikey",
+        "url": "https://github.com/ruimarinho/yubikey-handbook",
+        "tags": [
+            "security",
+            "Tools"
+        ],
+        "content": "Yubikeyの使い方",
+        "date": "2018-07-13T00:34:05.000Z"
+    },
+    {
+        "title": "SHOWROOMの新規開発にHyperappを採用した話 - SHOWROOM Tech Blog",
+        "url": "http://tech.showroom.co.jp/entry/2018/07/11/112107",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "Hyperapp事例",
+        "date": "2018-07-12T21:28:50.000Z"
+    },
+    {
+        "title": "新しい\"つながり\"を実現する企業向けクラウド型電話システム | Dialpad",
+        "url": "https://www.dialpad.co.jp/",
+        "tags": [
+            "webservice",
+            "企業"
+        ],
+        "content": "クラウド電話サービス",
+        "date": "2018-07-12T17:00:01.000Z"
+    },
+    {
+        "title": "GitHub - grab/front-end-guide: 📚 Study guide and introduction to the modern front end stack.",
+        "url": "https://github.com/grab/front-end-guide",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "grabのフロントエンド開発について@ 2017",
+        "date": "2018-07-11T20:51:02.000Z"
+    },
+    {
+        "title": "Browsh",
+        "url": "https://www.brow.sh/",
+        "tags": [
+            "browser",
+            "console",
+            "firefox"
+        ],
+        "content": "Firefoxをバックエンド(WebExtensions)に使ったテキストブラウザ。 CSSやWebGL、画像や動画などの描画結果をテキストベースで閲覧できる。",
+        "date": "2018-07-11T17:36:47.000Z"
+    },
+    {
+        "title": "Building an NPM module with Observable / Benjamin Atkin / Observable",
+        "url": "https://beta.observablehq.com/@benatkin/building-an-npm-module-with-observable",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "JSON pointerの実装",
+        "date": "2018-07-11T17:35:16.000Z"
+    },
+    {
+        "title": "Uncaught Error: Cannot find module './test/parse' · Issue #137 · AtomLinter/linter-tslint · GitHub",
+        "url": "https://github.com/AtomLinter/linter-tslint/issues/137",
+        "tags": [
+            "yarn"
+        ],
+        "content": ".yarncleanがあると実行できなくなるケース",
+        "date": "2018-07-11T16:53:25.000Z"
+    },
+    {
+        "title": "PDF版 WCAG 2.0 (JIS X 8341-3:2016, ISO/IEC 40500:2012) 解説書 + 達成方法集 要約(HTML+CSS+js 編) - 有限会社時代工房",
+        "url": "http://www.jidaikobo.com/archives/29.html",
+        "tags": [
+            "PDF",
+            "accessibility"
+        ],
+        "content": "PDF版 WCAG 2.0",
+        "date": "2018-07-11T11:40:07.000Z"
+    },
+    {
+        "title": "GitHub - FiloSottile/mkcert: A simple zero-config tool to make locally trusted development certificates with any names you'd like.",
+        "url": "https://github.com/FiloSottile/mkcert",
+        "tags": [
+            "SSL",
+            "Tools"
+        ],
+        "content": "ローカルで開発するときに任意のドメインをHTTPSでアクセスできるようにするためのCA。 証明書を発行できる",
+        "date": "2018-07-11T09:55:29.000Z"
+    },
+    {
+        "title": "    The CSS Paint API | CSS-Tricks  ",
+        "url": "https://css-tricks.com/the-css-paint-api/",
+        "tags": [
+            "CSS",
+            "JavaScript"
+        ],
+        "content": "CSS Paint APIについての記事。 新しいShapeの追加、カスタムプロパティとの連携方法について",
+        "date": "2018-07-11T09:52:51.000Z"
+    },
+    {
+        "title": "Next Currencyの管理画面 サーバサイドエンジニアのフロントエンド技術選択 - Speaker Deck",
+        "url": "https://speakerdeck.com/sonatard/next-currencyfalseguan-li-hua-mian-sabasaidoenziniafalsehurontoendoji-shu-xuan-ze",
+        "tags": [
+            "Vue",
+            "JavaScript",
+            "slide"
+        ],
+        "content": "Vueを使った管理画面のアーキテクチャ",
+        "date": "2018-07-11T09:50:06.000Z"
+    },
+    {
+        "title": "FavoritePapers/how_to_make_progress.md at master · SeitaroShinagawa/FavoritePapers · GitHub",
+        "url": "https://github.com/SeitaroShinagawa/FavoritePapers/blob/master/summary/how_to_make_progress.md",
+        "tags": [
+            "論文",
+            "まとめ"
+        ],
+        "content": "研究の進め方（論文の読み方,書き方,プレゼンの仕方）まとめ",
+        "date": "2018-07-11T08:06:41.000Z"
+    },
+    {
+        "title": "Experimenting with First Input Delay in the Chrome UX Report  |  Web       |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2018/07/first-input-delay-in-crux",
+        "tags": [
+            "performance",
+            "browser"
+        ],
+        "content": "First Input Delay (FID) の解説。 Chrome UX reportでのFIDのレポート検索例",
+        "date": "2018-07-11T07:30:41.000Z"
+    },
+    {
+        "title": "悪いインターネット | 広告ホスト",
+        "url": "https://warui.intaa.net/adhosts/",
+        "tags": [
+            "DNS"
+        ],
+        "content": "広告ブロック系のHostsファイル",
+        "date": "2018-07-11T07:25:36.000Z"
+    },
+    {
+        "title": "Structured Headers for HTTP",
+        "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-header-structure.html#why-not-json",
+        "tags": [
+            "HTTP",
+            "spec"
+        ],
+        "content": "Structured Headers for HTTPがJSONではなくなった理由について",
+        "date": "2018-07-11T07:24:31.000Z"
+    },
+    {
+        "title": "GitHub - maekawatoshiki/rapidus: A toy JavaScript engine implemented in Rust from scratch",
+        "url": "https://github.com/maekawatoshiki/rapidus",
+        "tags": [
+            "Rust",
+            "JavaScript"
+        ],
+        "content": "RustでJavaScriptエンジン",
+        "date": "2018-07-11T07:20:31.000Z"
+    },
+    {
+        "title": "arXiv Vanity – Read academic papers from arXiv as web pages",
+        "url": "https://www.arxiv-vanity.com/",
+        "tags": [
+            "webservice",
+            "PDF",
+            "論文"
+        ],
+        "content": "ArXivのPDFをHTMLにしてくれるツール",
+        "date": "2018-07-11T00:29:29.000Z"
+    },
+    {
+        "title": "AHC-Lab M1勉強会 論文の読み方・書き方",
+        "url": "https://www.slideshare.net/ShinagawaSeitaro/ahclab-m1",
+        "tags": [
+            "論文",
+            "slide"
+        ],
+        "content": "ArXivの論文の読み方。 論文の書き方や研究の進め方について",
+        "date": "2018-07-11T00:28:54.000Z"
+    },
+    {
+        "title": "The npm Blog — npm Joins ECMA International and TC39",
+        "url": "https://blog.npmjs.org/post/175722319045/npm-joins-ecma-international-and-tc39",
+        "tags": [
+            "ECMAScript",
+            "TC39",
+            "npm"
+        ],
+        "content": "npm join to TC39",
+        "date": "2018-07-10T19:38:37.000Z"
+    },
+    {
+        "title": "Caster Recruiting",
+        "url": "https://recruiting.cast-er.com/",
+        "tags": [
+            "企業"
+        ],
+        "content": "採用業務の代行会社",
+        "date": "2018-07-10T18:58:35.000Z"
+    },
+    {
+        "title": "Seva Zaikov - Node.js REPL in Depth",
+        "url": "https://blog.bloomca.me/2018/07/09/nodejs-repl-in-depth.html",
+        "tags": [
+            "node.js",
+            "article"
+        ],
+        "content": "Node.jsのREPLについての記事。 REPLで利用できる特別なコマンド、自動的に使えるモジュールやモジュールとして`repl`を使う方法についてなど",
+        "date": "2018-07-10T10:58:31.000Z"
+    },
+    {
+        "title": "Official Google Webmaster Central Blog: Using page speed in mobile search ranking",
+        "url": "https://webmasters.googleblog.com/2018/01/using-page-speed-in-mobile-search.html",
+        "tags": [
+            "google",
+            "SEO",
+            "performance",
+            "news"
+        ],
+        "content": "Googleのモバイル検索で\"Speed Update\"が有効化された。 表示が遅いサイトは表示ランキングに影響する仕組み。",
+        "date": "2018-07-10T01:56:29.000Z"
+    },
+    {
+        "title": "【訂正記事】Google Speed Updateで影響を受けるのは本当に遅いページだけ、スピード改善が段階的に評価されるのは影響を受けた場合 | 海外SEO情報ブログ",
+        "url": "https://www.suzukikenichi.com/blog/google-confirms-again-speed-update-only-affects-the-slowest-sites/",
+        "tags": [
+            "SEO",
+            "google"
+        ],
+        "content": "Speed Updateは遅いモバイルサイトが影響を受ける",
+        "date": "2018-07-10T01:53:06.000Z"
+    },
+    {
+        "title": "Bug Patterns - Find Security Bugs",
+        "url": "https://find-sec-bugs.github.io/bugs_ja.htm",
+        "tags": [
+            "security",
+            "document"
+        ],
+        "content": "Find Security Bugsで見つけられるセキュリティバグのパターンについての解説ドキュメント。 予測できる疑似乱数、証明書系、DoS、パース、SQLインジェクション、クッキーなど典型的なセキュリティバグの解説がまとまってい",
+        "date": "2018-07-10T01:39:39.000Z"
+    },
+    {
+        "title": "Microsoft/vscode-extension-samples: Sample code illustrating the VS Code extension API.",
+        "url": "https://github.com/Microsoft/vscode-extension-samples",
+        "tags": [
+            "VSCode",
+            "Extension"
+        ],
+        "content": "VSCodeの拡張サンプルリポジトリ",
+        "date": "2018-07-10T01:29:06.000Z"
+    },
+    {
+        "title": "GitHub - jamiemccrindle/axax: Async Iterator Extensions for JavaScript e.g. map, reduce, filter, flatMap, etc.",
+        "url": "https://github.com/jamiemccrindle/axax",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "Async Iteratorを使った`map`、`reduce`、`filter`、`flatMap`、`pipe`などの実装ライブラリ。 RxJSやコレクション系ライブラリと似たメソッドを提供するライブラリ",
+        "date": "2018-07-09T22:43:56.000Z"
+    },
+    {
+        "title": "        Framer -        Interactive Design Tool              ",
+        "url": "https://framer.com/",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "dropbox"
+        ],
+        "content": "インタラクティブなプロトタイプを作成できるエディタ。",
+        "date": "2018-07-09T22:28:04.000Z"
+    },
+    {
+        "title": "An adventure in sparse arrays",
+        "url": "https://remysharp.com/2018/06/26/an-adventure-in-sparse-arrays",
+        "tags": [
+            "JavaScript",
+            "article"
+        ],
+        "content": "JavaScriptの配列におけるsparse array(疎の配列)についての記事。 配列に穴があるときに、ループやメソッドなど列挙する際の扱いなどについて",
+        "date": "2018-07-09T22:23:21.000Z"
+    },
+    {
+        "title": "ESLint v5.1.0 released - ESLint - Pluggable JavaScript linter",
+        "url": "https://eslint.org/blog/2018/07/eslint-v5.1.0-released",
+        "tags": [
+            "ESLint",
+            "ReleaseNote"
+        ],
+        "content": "ESLint 5.1.0リリース。 `no-catch-shadow`はdeprecatedとなり、`no-shadow`を優先するようになった。",
+        "date": "2018-07-09T11:27:52.000Z"
+    },
+    {
+        "title": "Optimization Auditing: A Deep Dive into Chrome's Dev Console — SitePoint",
+        "url": "https://www.sitepoint.com/optimization-auditing-a-deep-dive-into-chromes-dev-console/",
+        "tags": [
+            "Chrome",
+            "debug",
+            "article"
+        ],
+        "content": "Chromeの開発者ツールの機能についての解説。 コンソールやパフォーマンスなどのツールについてスクリーンショットとともに紹介している。",
+        "date": "2018-07-09T00:11:55.000Z"
+    },
+    {
+        "title": "GitHub - retejs/rete: JavaScript framework for visual programming and creating node editor",
+        "url": "https://github.com/retejs/rete",
+        "tags": [
+            "JavaScript",
+            "library",
+            "program"
+        ],
+        "content": "ビジュアルプログラミングのためのフレームワーク。",
+        "date": "2018-07-09T00:08:43.000Z"
+    },
+    {
+        "title": "GitHub - microstates/microstates.js: Composable State Primitives for JavaScript",
+        "url": "https://github.com/microstates/microstates.js",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "Immutableなオブジェクトをデータ型とオブジェクトの指定をして作成するライブラリ",
+        "date": "2018-07-09T00:07:29.000Z"
+    },
+    {
+        "title": "ブラウザの廃止される機能を使っていることを検知する Deprecation Reports (+ Intervention reports ) - ASnoKaze blog",
+        "url": "https://asnokaze.hatenablog.com/entry/2018/07/06/231248",
+        "tags": [
+            "browser",
+            "Chrome"
+        ],
+        "content": "非推奨なAPIをReportingObserverで取得できる",
+        "date": "2018-07-09T00:00:06.000Z"
+    },
+    {
+        "title": "Service Detection | DataSign FE",
+        "url": "https://fe.datasign.co/",
+        "tags": [
+            "webservice",
+            "Tools"
+        ],
+        "content": "指定したURLで使われてるトラッキング系サービスを見られるツール。 広告、アクセス解析、データ収集、ソーシャル系など",
+        "date": "2018-07-08T18:34:34.000Z"
+    },
+    {
+        "title": "投稿一覧ページ",
+        "url": "https://datasign.jp/tags/?tag=datasign%20report",
+        "tags": [
+            "document",
+            "webservice",
+            "統計",
+            "privacy"
+        ],
+        "content": "国内のサイトで使われてるトラッキング系のサービスの種類やシェアをまとめてるレポート。 Analytics系から、A/Bテスト、広告、CDN地図、チャットなどについてまとめられている",
+        "date": "2018-07-08T18:31:10.000Z"
+    },
+    {
+        "title": "http://must.c.u-tokyo.ac.jp/sigam/sigam15/sigam1501.pdf",
+        "url": "http://must.c.u-tokyo.ac.jp/sigam/sigam15/sigam1501.pdf",
+        "tags": [
+            "nlp"
+        ],
+        "content": "word2vecでの炎上判定する論文。既存の辞書とTwitterから収集したデータを元に新しく辞書を作る",
+        "date": "2018-07-08T00:58:22.000Z"
+    },
+    {
+        "title": "http://svn.sourceforge.jp/svnroot/slothlib/CSharp/Version1/SlothLib/NLP/Filter/StopWord/word/Japanese.txt",
+        "url": "http://svn.sourceforge.jp/svnroot/slothlib/CSharp/Version1/SlothLib/NLP/Filter/StopWord/word/Japanese.txt",
+        "tags": [
+            "japanese"
+        ],
+        "content": "日本語のSTOPWORD",
+        "date": "2018-07-07T21:44:39.000Z"
+    },
+    {
+        "title": "Ceek.jp Open Data - データ公開",
+        "url": "http://open.ceek.jp/",
+        "tags": [
+            "2ch",
+            "nlp",
+            "japanese"
+        ],
+        "content": "> ２ちゃんねるのスレッド で収集した ２ちゃんねる掲示板 のスレッドタイトルデータです。 2chタイトルコーパス",
+        "date": "2018-07-07T21:37:59.000Z"
+    },
+    {
+        "title": "GitHub - dialectic4th/11NLP_study: NLP基礎・テキスト分類・WordEnbedding・",
+        "url": "https://github.com/dialectic4th/11NLP_study",
+        "tags": [
+            "nlp",
+            "japanese"
+        ],
+        "content": "fasttextに関する知識や用語をまとめたリポジトリ",
+        "date": "2018-07-07T21:18:31.000Z"
+    },
+    {
+        "title": "word2vecで吉川英治本の感情分析をしてみた - Qiita",
+        "url": "https://qiita.com/TakahiroYamamoto/items/8efaae49ea4ff4f7eeec#fn3",
+        "tags": [
+            "node.js",
+            "japanese"
+        ],
+        "content": "node.jsとword2vecを使った感情の分析をする。 プルチックの感情の輪に近さをベクトルとして取得する",
+        "date": "2018-07-07T21:12:40.000Z"
+    },
+    {
+        "title": "http://www3.nhk.or.jp/pr/keiei/bc-guideline/pdf/guideline.pdf",
+        "url": "http://www3.nhk.or.jp/pr/keiei/bc-guideline/pdf/guideline.pdf",
+        "tags": [
+            "japaneses"
+        ],
+        "content": "NHKの放送ガイドライン。放送における姿勢やきをつけること。著作権などについて書かれてる",
+        "date": "2018-07-07T21:05:11.000Z"
+    },
+    {
+        "title": "GitHub - ikegami-yukino/dataset-list: lists of text corpus and more (mainly Japanese)",
+        "url": "https://github.com/ikegami-yukino/dataset-list",
+        "tags": [
+            "japanese"
+        ],
+        "content": "日本語関係のデータセットやコーパスのまとめ。 大きめのテキストデータやモデル",
+        "date": "2018-07-07T21:00:01.000Z"
+    },
+    {
+        "title": "感情の一覧 - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E6%84%9F%E6%83%85%E3%81%AE%E4%B8%80%E8%A6%A7",
+        "tags": [
+            "japanese"
+        ],
+        "content": "感情を表す気持ちの一覧",
+        "date": "2018-07-07T19:01:59.000Z"
+    },
+    {
+        "title": "わかる！Firebase ～全てのサービスをおつまみ紹介～ - Qiita",
+        "url": "https://qiita.com/dogwood008/items/fa95b62ad151f823af70",
+        "tags": [
+            "firebase",
+            "google"
+        ],
+        "content": "Firebase関係のサービスまとめ",
+        "date": "2018-07-07T15:02:50.000Z"
+    },
+    {
+        "title": "face-api.js — JavaScript API for Face Recognition in the Browser with tensorflow.js",
+        "url": "https://itnext.io/face-api-js-javascript-api-for-face-recognition-in-the-browser-with-tensorflow-js-bcc2a6c4cf07",
+        "tags": [
+            "JavaScript",
+            "library",
+            "article"
+        ],
+        "content": "tensorflow.jsベースの顔検出/認識ライブラリであるface-api.jsについての記事。Face DetectionとFace Recognitionの実装方法や使い方についての解説",
+        "date": "2018-07-07T13:42:09.000Z"
+    },
+    {
+        "title": "GitHub - justadudewhohacks/face-api.js: JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js",
+        "url": "https://github.com/justadudewhohacks/face-api.js",
+        "tags": [
+            "JavaScript",
+            "MachineLearning",
+            "library"
+        ],
+        "content": "tensorflow.jsを使った顔検出/認識ライブラリ。",
+        "date": "2018-07-07T13:38:38.000Z"
+    },
+    {
+        "title": "Writing the Docs – Frappé Thoughts – Medium",
+        "url": "https://medium.com/frapp%C3%A9-thoughts/dabccd97c464",
+        "tags": [
+            "document",
+            "library",
+            "article"
+        ],
+        "content": "ライブラリのドキュメントを書くツールについて。",
+        "date": "2018-07-07T13:33:42.000Z"
+    },
+    {
+        "title": "Solving the Node require() path problem for once and for all – DanHulton.com",
+        "url": "http://danhulton.com/2018/06/solving-the-node-require-path-problem-for-once-and-for-all/",
+        "tags": [
+            "node.js",
+            "library"
+        ],
+        "content": "`module-alias`というライブラリで`require`のaliasを行う方法について。",
+        "date": "2018-07-07T13:31:44.000Z"
+    },
+    {
+        "title": "What Is Redux: A Designer’s Guide — Smashing Magazine",
+        "url": "https://www.smashingmagazine.com/2018/07/redux-designers-guide/",
+        "tags": [
+            "redux",
+            "article"
+        ],
+        "content": "Designer向けのReduxとはどういうもの？という解説。 データ受け取りどのようにコンポーネントの表示に反映させるかやデータ(State)変更、Optimistic UIなどについて図とともに概念を説明している",
+        "date": "2018-07-07T13:23:13.000Z"
+    },
+    {
+        "title": "The npm Blog — Announcing npm.community",
+        "url": "https://blog.npmjs.org/post/175587538995/announcing-npmcommunity",
+        "tags": [
+            "npm",
+            "community",
+            "issue"
+        ],
+        "content": "npmに関するIssueはDiscourse(npm.community)で扱うようにするという話。 既存のnpmリポジトリに立てられたIssueはアーカイブ化され、新規のIssueはnpm.communityの特定のカテゴリで扱うようになる。",
+        "date": "2018-07-07T13:07:28.000Z"
+    },
+    {
+        "title": "GitHub - lukakerr/Pine: A modern, native macOS markdown editor",
+        "url": "https://github.com/lukakerr/twig",
+        "tags": [
+            "Markdown",
+            "mac",
+            "software"
+        ],
+        "content": "macネイティブなMarkdownエディタ。 ファイルツリーがある",
+        "date": "2018-07-07T12:23:14.000Z"
+    },
+    {
+        "title": "ためしがき",
+        "url": "https://tameshigaki.jp/",
+        "tags": [
+            "fonts",
+            "web",
+            "google"
+        ],
+        "content": "ウェブフォントのまとめてプレビューできるツール",
+        "date": "2018-07-07T11:40:11.000Z"
+    },
+    {
+        "title": "続: DDDのリポジトリのインターフェイスをどのように設計すべきか - Qiita",
+        "url": "https://qiita.com/j5ik2o/items/fcb56393d8f2ae9355cb",
+        "tags": [
+            "DDD"
+        ],
+        "content": "DDDなリポジトリの設計。 型クラスで同期、非同期をどうにかする話",
+        "date": "2018-07-07T11:31:14.000Z"
+    },
+    {
+        "title": "Microsoft/tsdoc: A doc comment standard for the TypeScript language",
+        "url": "https://github.com/Microsoft/tsdoc",
+        "tags": [
+            "TypeScript",
+            "document",
+            "Tools"
+        ],
+        "content": "TypeScriptのドキュメント生成ツール。",
+        "date": "2018-07-07T09:10:12.000Z"
+    },
+    {
+        "title": "GitHub - prahladyeri/http-live-simulator: A simple HTTP Server that serves with random delay for live simulation.",
+        "url": "https://github.com/prahladyeri/http-live-simulator",
+        "tags": [
+            "node.js",
+            "server",
+            "Tools"
+        ],
+        "content": "遅延を再現するHTTPサーバ",
+        "date": "2018-07-06T18:53:50.000Z"
+    },
+    {
+        "title": "GitHub - pbojinov/request-ip: A Node.js module for retrieving a request's IP address on the server.",
+        "url": "https://github.com/pbojinov/request-ip",
+        "tags": [
+            "node.js",
+            "library"
+        ],
+        "content": "リクエストのIPアドレスを取得するライブラリ。 `X-Forwarded-For`はCloudflareなどいろいろなヘッダに対応してる",
+        "date": "2018-07-06T18:47:48.000Z"
+    },
+    {
+        "title": "フロントエンドの「想定外」に対応する考え方とTipsいくつか | ダーシマ・ヱンヂニヤリング",
+        "url": "https://necomesi.jp/blog/tsmd/posts/229",
+        "tags": [
+            "browser",
+            "JavaScript"
+        ],
+        "content": "ブラウザの設定により使わない機能を考慮したデザインについて。 デフォルトフォント、Adblock、拡張機能、JavaScriptの無効化、Cookieの無効化/プライベートモードに対する対応などについて",
+        "date": "2018-07-06T16:17:36.000Z"
+    },
+    {
+        "title": "Amazon AWSでユーザ数1100万以上にスケーリングするためのビギナーズ・ガイド | POSTD",
+        "url": "https://postd.cc/a-beginners-guide-to-scaling-to-11-million-users-on-amazons/",
+        "tags": [
+            "aws"
+        ],
+        "content": "ユーザー数ごとのAWSにおけるスケーリング手段について。 1000万あたりからDBの分割が始まる",
+        "date": "2018-07-06T15:49:54.000Z"
+    },
+    {
+        "title": "Node v10.6.0 (Current) | Node.js",
+        "url": "https://nodejs.org/en/blog/release/v10.6.0/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node.js 10.6.0リリース。 `require('dns').promises`の追加、`Atomics.wake`を`Atomics.notify`にリネームするECMAScriptの仕様追従など",
+        "date": "2018-07-05T14:08:52.000Z"
+    },
+    {
+        "title": "jest/CHANGELOG.md at v23.3.0 · facebook/jest · GitHub",
+        "url": "https://github.com/facebook/jest/blob/v23.3.0/CHANGELOG.md",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Jest 23.3.0リリース。 インラインでスナップショットテストをする`toMatchInlineSnapshot`と`toThrowErrorMatchingInlineSnapshot`の追加など",
+        "date": "2018-07-05T09:55:50.000Z"
+    },
+    {
+        "title": "BB-11 | ブギーボード | KINGJIM",
+        "url": "https://www.kingjim.co.jp/sp/boogieboard/bb11.html",
+        "tags": [
+            "物欲"
+        ],
+        "content": "半透明なブギーボード",
+        "date": "2018-07-05T09:23:56.000Z"
+    },
+    {
+        "title": "Ember.js - Ember 3.2 Released",
+        "url": "https://emberjs.com/blog/2018/06/29/ember-3-2-released.html",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Ember 3.2リリース。 テンプレートに`let`ヘルパーの追加、`Ember.Logger`などが非推奨に",
+        "date": "2018-07-04T17:05:15.000Z"
+    },
+    {
+        "title": "エンジニアはどうDDDと向き合っていけばいいのか(1):ChatWork株式会社テックリード加藤さんインタビュー | 即戦力複業ならコデアル。働くをもっと自由に",
+        "url": "https://www.codeal.work/contents/archives/2764",
+        "tags": [
+            "DDD",
+            "インタビュー"
+        ],
+        "content": "DDDを取り入れる時はどういうときか、どのようなコミュニケーションを取るかについて",
+        "date": "2018-07-03T20:19:39.000Z"
+    },
+    {
+        "title": "HTML, CSS, JavaScript それぞれのロード時間が First Paint に与える影響を検証して整理する - Qiita",
+        "url": "https://qiita.com/yoheimuta/items/10cb9cb0f857c687f976",
+        "tags": [
+            "browser",
+            "performance"
+        ],
+        "content": "First PaintとDomContentLoadedに対して、CSSやJSのロードが与える影響について",
+        "date": "2018-07-03T08:14:20.000Z"
+    },
+    {
+        "title": "Introduction to Feature Policy  |  Web       |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2018/06/feature-policy",
+        "tags": [
+            "browser",
+            "security",
+            "article",
+            "CSP"
+        ],
+        "content": "Feature Policyについて。 CSPはセキュリティのコントールをし、Feature Policyは機能に対してのコントールをする点について。 Feature Policyの指定方法やどのようなときに使うべきかについて",
+        "date": "2018-07-03T07:39:07.000Z"
+    },
+    {
+        "title": "GitHub - zzarcon/react-gh-corner: React portals + Github corners + Styled component = 💘",
+        "url": "https://github.com/zzarcon/react-gh-corner",
+        "tags": [
+            "React",
+            "github"
+        ],
+        "content": "GitHub Ribbon的なものをReact Portalで",
+        "date": "2018-07-03T07:35:18.000Z"
+    },
+    {
+        "title": "Audio Worklet Design Pattern  |  Web       |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2018/06/audio-worklet-design-pattern",
+        "tags": [
+            "JavaScript",
+            "web",
+            "audio",
+            "article"
+        ],
+        "content": "AudioWorkletのデザインパターンについて。 WebAssembly、SharedArrayBufferとの組み合わせての利用についてなど",
+        "date": "2018-07-03T07:34:45.000Z"
+    },
+    {
+        "title": "Word や PowerPoint のファイルを grep したり diff したりする - Qiita",
+        "url": "https://qiita.com/kaz-utashiro/items/30594c16ed6d931324f9",
+        "tags": [
+            "office",
+            "Tools"
+        ],
+        "content": "wordなどを検索、diffするツール",
+        "date": "2018-07-03T06:25:52.000Z"
+    },
+    {
+        "title": "Making Web Components Work | Mixpanel Engineering\t",
+        "url": "https://engineering.mixpanel.com/2018/06/12/making-web-components-work/",
+        "tags": [
+            "WebComponents",
+            "article"
+        ],
+        "content": "Web Componentsを使って作ったパネルコンポーネントについての記事。 snabbdomを使ったVirtual DOMを使い描画し、Web Conponentsでのステート管理についてなど。",
+        "date": "2018-07-03T06:18:23.000Z"
+    },
+    {
+        "title": "GitHub - yairEO/fakescroll: vanilla-js lightweight custom HTML scrollbar",
+        "url": "https://github.com/yairEO/fakescroll",
+        "tags": [
+            "HTML",
+            "JavaScript"
+        ],
+        "content": "ファイクスクロールバー",
+        "date": "2018-07-03T05:51:25.000Z"
+    },
+    {
+        "title": "GitHub - kitze/JSUI: A powerful UI toolkit for managing JavaScript apps",
+        "url": "https://github.com/kitze/JSUI",
+        "tags": [
+            "JavaScript",
+            "GUI",
+            "project"
+        ],
+        "content": "JavaScriptのプロジェクト管理GUI。 GUIでアプリの作成、プロジェクトのダッシュボード、タスクの実行などができる",
+        "date": "2018-07-03T05:36:58.000Z"
+    },
+    {
+        "title": "Training",
+        "url": "https://www.microsoft.com/en-us/diversity/training",
+        "tags": [
+            "people",
+            "MS"
+        ],
+        "content": "Microsoftのバイアスについての動画チュートリアル。",
+        "date": "2018-07-03T00:45:24.000Z"
+    },
+    {
+        "title": "Brave Introduces Beta of Private Tabs with Tor for Enhanced Privacy while Browsing | Brave Browser",
+        "url": "https://brave.com/tor-tabs-beta/",
+        "tags": [
+            "browser"
+        ],
+        "content": "BraveがTorをサポート",
+        "date": "2018-07-02T23:56:55.000Z"
+    },
+    {
+        "title": "GitHub - jsha/minica: minica is a small, simple CA intended for use in situations where the CA operator also operates each host where a certificate will be used.",
+        "url": "https://github.com/jsha/minica",
+        "tags": [
+            "SSL",
+            "Tools"
+        ],
+        "content": "指定したドメインの証明書を作成できる。 localhostの証明書を作成するのに便利",
+        "date": "2018-07-02T22:53:02.000Z"
+    },
+    {
+        "title": "ISO/IEC 22275:2018 - Information technology -- Programming languages, their environments, and system software interfaces -- ECMAScript® Specification Suite",
+        "url": "https://www.iso.org/standard/73002.html",
+        "tags": [
+            "ECMAScript",
+            "spec"
+        ],
+        "content": "ECMA-414 ECMAScript® Specification SuiteのISO版であるISO/IEC 22275:2018(Publication)",
+        "date": "2018-07-02T17:32:53.000Z"
+    },
+    {
+        "title": "Web Performance Checklist – ITNEXT",
+        "url": "https://itnext.io/web-performance-checklist-6b616f3c6f0d",
+        "tags": [
+            "browser",
+            "performance",
+            "article"
+        ],
+        "content": "ウェブアプリにおけるパフォーマンスのチェック項目のまとめ。 最適化のアプローチについての概要まとめ",
+        "date": "2018-07-02T07:40:50.000Z"
+    },
+    {
+        "title": "脆弱性管理のベストプラクティスとスレットモニタリング - Speaker Deck",
+        "url": "https://speakerdeck.com/rtechkouhou/cui-ruo-xing-guan-li-falsebesutopurakuteisutosuretutomonitaringu",
+        "tags": [
+            "security",
+            "slide"
+        ],
+        "content": "リクルートのRED TEAM",
+        "date": "2018-07-01T22:49:53.000Z"
+    },
+    {
+        "title": "GitHub - mizchi/trans-loader: webpack-less frontend with service-worker",
+        "url": "https://github.com/mizchi/trans-loader",
+        "tags": [
+            "ServiceWorker",
+            "babel",
+            "TypeScript",
+            "npm",
+            "JavaScript",
+            "library"
+        ],
+        "content": "Service Workerを使ってBabelやTypeScriptでの変換を行うスクリプト。 npmのモジュールをjspm.ioを使ってロードできる。",
+        "date": "2018-07-01T21:31:46.000Z"
+    },
+    {
+        "title": "GitHub - kay-is/react-from-zero: A simple (99% ES2015 less) tutorial for React",
+        "url": "https://github.com/kay-is/react-from-zero",
+        "tags": [
+            "React",
+            "tutorial"
+        ],
+        "content": "Reactを一から学ぶチュートリアル。 ブラウザだけで動くReactのコードを見ながら、Reactについてを解説している。",
+        "date": "2018-07-01T16:18:44.000Z"
+    },
+    {
+        "title": "Cirrus CI Documentation",
+        "url": "https://cirrus-ci.org/",
+        "tags": [
+            "CI",
+            "webservice"
+        ],
+        "content": "Windows, macOS、 Linuxに対応したCIサービス",
+        "date": "2018-07-01T08:24:51.000Z"
+    },
+    {
+        "title": "lighthouse/changelog.md at v3.0.0 · GoogleChrome/lighthouse · GitHub",
+        "url": "https://github.com/GoogleChrome/lighthouse/blob/v3.0.0/changelog.md",
+        "tags": [
+            "Chrome",
+            "performance",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "Lighthouse 3.0リリース。 レポートUIの変更、それぞれのスコアのWeightの変更、First Contentful Paintの追加、RTTのコスト表示の追加など。",
+        "date": "2018-06-30T21:54:28.000Z"
+    },
+    {
+        "title": "波ダッシュ - Wikipedia:表記ガイド - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/Wikipedia:%E8%A1%A8%E8%A8%98%E3%82%AC%E3%82%A4%E3%83%89",
+        "tags": [
+            "wiki",
+            "document",
+            "japanese"
+        ],
+        "content": "Wikipediaの表記ガイド。 文字、送り仮名、記号、表現などについてのスタイルガイド",
+        "date": "2018-06-30T20:57:53.000Z"
+    },
+    {
+        "title": "Vue.js プロジェクトの爆発させかた #ichigayageek / How to explosion Vue.js project - Speaker Deck",
+        "url": "https://speakerdeck.com/potato4d/how-to-explosion-vue-dot-js-project",
+        "tags": [
+            "Vue",
+            "slide"
+        ],
+        "content": "Vueを使ったプロジェクトで遭遇する問題についてのスライド。 規模が大きくなってきたときのステートの管理方法、デザイナーとの協業、既存のウェブアプリへの部分的な適応、別のテンプレートエンジンとの組み合わせ",
+        "date": "2018-06-30T15:35:30.000Z"
+    }
+]

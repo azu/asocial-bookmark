@@ -37,3 +37,13 @@ export async function createIndexJSON({ cwd }: { cwd: string }) {
         .distinct()
         .toArray();
 }
+
+export async function createTagsJSON({ cwd }: { cwd: string }) {
+    const items = await collectionIndexJSON({ cwd });
+    // will be unique?
+    return from(items)
+        .flatMap(item => item.tags)
+        .distinct()
+        .sortBy()
+        .toArray();
+}
