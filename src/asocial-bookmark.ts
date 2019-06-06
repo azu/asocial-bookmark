@@ -166,7 +166,7 @@ export class AsocialBookmark {
             const newItems = items.concat(newItem);
             await this.koreFile.writeFile(permalink, JSON.stringify(newItems, null, 4));
             // Move updating tags to batch tool => asocial-bookmark-create-index.ts
-            // await this.updateTags(newItem.tags);
+            await this.updateTags(newItem.tags);
         } catch (error) {
             debug("getBookmark Error", error);
             return;
