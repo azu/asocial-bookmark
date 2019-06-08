@@ -72,6 +72,7 @@
   "dependencies": {
     "dayjs": "^1.8.14",
     "debug": "^4.1.1",
+    "fast-deep-equal": "^2.0.1",
     "fromfrom": "^1.3.0",
     "glob": "^7.1.4",
     "hatebu-mydata-parser": "^1.0.0",

@@ -2,6 +2,7 @@ import { createFsAdaptor, createGitHubAdaptor, createKoreFile, KoreFile } from "
 import dayjs from "dayjs";
 import { from } from "fromfrom";
 import normalizeUrl from "normalize-url";
+import deepEqual from "fast-deep-equal";
 
 const debug = require("debug")("asocial-bookmark");
 
@@ -83,6 +84,10 @@ export class AsocialBookmark {
                 .sortBy()
                 .distinct()
                 .toArray();
+            if (deepEqual(allWithNewTags, allTags)) {
+                // No update
+                return;
+            }
             return this.koreFile.writeFile(permalink, JSON.stringify(allWithNewTags, null, 4));
         } catch (error) {
             debug("updateTags Error", error);
