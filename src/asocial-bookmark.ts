@@ -14,7 +14,7 @@ export interface AsocialBookmarkItem {
     tags: string[];
     date: string;
     viaURL?: string;
-    relatedLinks?: { title: string, url: string }[]
+    relatedItems?: { title: string, url: string }[]
 }
 
 export interface AsocialBookmarkOptions {
