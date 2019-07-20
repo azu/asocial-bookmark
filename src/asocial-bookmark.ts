@@ -80,6 +80,9 @@ export class AsocialBookmark {
         try {
             const allTags = await this.getTags();
             const allWithNewTags = from(allTags)
+                .without(newTags, (a, b) => {
+                    return a.toLowerCase() === b.toLowerCase();
+                })
                 .concat(newTags)
                 .sortBy()
                 .distinct()
