@@ -142,15 +142,19 @@ export class AsocialBookmark {
      * @param url
      * @param date
      */
-    async getBookmark({ url, date }: { url: string, date: string }): Promise<AsocialBookmarkItem | undefined> {
+    async getBookmark({ url, date }: { url: string, date: string }): Promise<AsocialBookmarkItem> {
         try {
             const items = await this.getItemsAtMonth(new Date(date));
-            return items.find(item => {
+            const item = items.find(item => {
                 return equalsUrl(item.url, url);
             });
+            if (!item) {
+                return Promise.reject(new Error(`Not found item: ${url}`));
+            }
+            return item;
         } catch (error) {
             debug("getBookmark Error", error);
-            return;
+            return Promise.reject(error);
         }
     }
 
