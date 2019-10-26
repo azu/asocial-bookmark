@@ -1,6 +1,6 @@
 # asocial-bookmark
 
-personal bookmark system.
+Personal bookmark system on GitHub repository.
 
 ## Install
 
