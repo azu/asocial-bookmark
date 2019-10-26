@@ -2,6 +2,12 @@
 
 Personal bookmark system on GitHub repository.
 
+## Features
+
+- Manage your bookmark on GitHub
+- Update bookmark data via GitHub API
+- [Postem](https://github.com/azu/postem) integration
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
