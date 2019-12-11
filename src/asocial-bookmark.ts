@@ -24,6 +24,9 @@ export interface AsocialBookmarkOptions {
         ref: string;
         token: string;
     };
+    // index.json path
+    // Default: "data/:year/:month/index.json"
+    dataFilePath?: string;
     local?: {
         cwd: string;
     }
@@ -49,11 +52,11 @@ export const isAsocialBookmarkItem = (item: any): item is AsocialBookmarkItem =>
 
 export class AsocialBookmark {
     private koreFile: KoreFile;
-    private variablePath: string;
+    private dataFilePath: string;
     private tagsPath: string;
 
     constructor(options: AsocialBookmarkOptions) {
-        this.variablePath = "data/:year/:month/index.json";
+        this.dataFilePath = options.dataFilePath ? options.dataFilePath : "data/:year/:month/index.json";
         this.tagsPath = "tags.json";
         if (options.github) {
             this.koreFile = createKoreFile({
@@ -99,7 +102,7 @@ export class AsocialBookmark {
     }
 
     private async getItemsAtMonth(date: Date): Promise<AsocialBookmarkItem[]> {
-        const permalink = createPermalink(this.variablePath, date);
+        const permalink = createPermalink(this.dataFilePath, date);
         try {
             const response = await this.koreFile.readFile(permalink);
             return JSON.parse(response);
@@ -164,7 +167,7 @@ export class AsocialBookmark {
      */
     async updateBookmark(newItem: AsocialBookmarkItem) {
         const newItemDate = new Date(newItem.date);
-        const permalink = createPermalink(this.variablePath, newItemDate);
+        const permalink = createPermalink(this.dataFilePath, newItemDate);
         debug("updateBookmark: permalink", permalink);
         try {
             const items = await this.getItemsAtMonth(newItemDate);
@@ -193,7 +196,7 @@ export class AsocialBookmark {
     async deleteBookmark({ url, date }: { url: string, date: string }) {
         const itemDate = new Date(date);
         const items = await this.getItemsAtMonth(itemDate);
-        const permalink = createPermalink(this.variablePath, itemDate);
+        const permalink = createPermalink(this.dataFilePath, itemDate);
         debug("updateBookmark: permalink", permalink);
         const matchIndex = items.findIndex(item => {
             return equalsUrl(item.url, url);
