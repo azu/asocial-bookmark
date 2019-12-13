@@ -27,6 +27,11 @@ export interface AsocialBookmarkOptions {
     // index.json path
     // Default: "data/:year/:month/index.json"
     dataFilePath?: string;
+    // index property name for saving items
+    // if `itemsPropertyName` is undefined, save items as root object
+    // if `itemsPropertyName` is `prop`, save `{ prop: [items] }`
+    // Default: None(JSON is Array)
+    indexPropertyName?: string;
     local?: {
         cwd: string;
     }
@@ -54,9 +59,11 @@ export class AsocialBookmark {
     private koreFile: KoreFile;
     private dataFilePath: string;
     private tagsPath: string;
+    private indexPropertyName: string | undefined;
 
     constructor(options: AsocialBookmarkOptions) {
         this.dataFilePath = options.dataFilePath ? options.dataFilePath : "data/:year/:month/index.json";
+        this.indexPropertyName = options.indexPropertyName;
         this.tagsPath = "tags.json";
         if (options.github) {
             this.koreFile = createKoreFile({
@@ -94,7 +101,7 @@ export class AsocialBookmark {
                 // No update
                 return;
             }
-            return this.koreFile.writeFile(permalink, JSON.stringify(allWithNewTags, null, 4));
+            return this.koreFile.writeFile(permalink, JSON.stringify(allWithNewTags, null, 4) + "\n");
         } catch (error) {
             debug("updateTags Error", error);
             return;
@@ -105,7 +112,11 @@ export class AsocialBookmark {
         const permalink = createPermalink(this.dataFilePath, date);
         try {
             const response = await this.koreFile.readFile(permalink);
-            return JSON.parse(response);
+            const json = JSON.parse(response);
+            if (this.indexPropertyName) {
+                return json[this.indexPropertyName];
+            }
+            return json;
         } catch (error) {
             debug("getItemsAtMonth Error", error);
             return [];
@@ -179,7 +190,8 @@ export class AsocialBookmark {
                 items.splice(matchIndex, 1);
             }
             const newItems = items.concat(newItem);
-            await this.koreFile.writeFile(permalink, JSON.stringify(newItems, null, 4));
+            const json = this.indexPropertyName ? { [this.indexPropertyName]: newItems } : newItems;
+            await this.koreFile.writeFile(permalink, JSON.stringify(json, null, 4) + "\n");
             // Move updating tags to batch tool => asocial-bookmark-create-index.ts
             await this.updateTags(newItem.tags);
         } catch (error) {
@@ -205,6 +217,7 @@ export class AsocialBookmark {
         if (matchIndex !== -1) {
             items.splice(matchIndex, 1);
         }
-        return this.koreFile.writeFile(permalink, JSON.stringify(items, null, 4));
+        const json = this.indexPropertyName ? { [this.indexPropertyName]: items } : items;
+        return this.koreFile.writeFile(permalink, JSON.stringify(json, null, 4) + "\n");
     }
 }
