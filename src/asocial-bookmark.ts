@@ -1,4 +1,4 @@
-import { createFsAdaptor, createGitHubAdaptor, createKoreFile, KoreFile } from "korefile";
+import { createFsAdaptor, createGitHubAdaptor, createKoreFile, GitHubAdaptorOptions, KoreFile } from "korefile";
 import dayjs from "dayjs";
 import { from } from "fromfrom";
 import normalizeUrl from "normalize-url";
@@ -23,6 +23,7 @@ export interface AsocialBookmarkOptions {
         repo: string;
         ref: string;
         token: string;
+        commitMessage?: GitHubAdaptorOptions["commitMessage"]
     };
     // index.json path
     // Default: "data/:year/:month/index.json"
@@ -71,7 +72,8 @@ export class AsocialBookmark {
                     owner: options.github.owner,
                     repo: options.github.repo,
                     ref: options.github.ref,
-                    token: options.github.token
+                    token: options.github.token,
+                    commitMessage: options.github.commitMessage
                 })
             });
         } else {
