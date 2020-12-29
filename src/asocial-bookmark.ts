@@ -38,12 +38,14 @@ export interface AsocialBookmarkOptions {
     }
 }
 
-const createPermalink = (variablePath: string, date: Date) => {
+export const createBookmarkFilePath = (variablePath: string, date: Date) => {
     const day = dayjs(date);
     return variablePath.replace(
         ":year", day.format("YYYY")
     ).replace(
         ":month", day.format("MM")
+    ).replace(
+        ":day", day.format("DD")
     );
 };
 
@@ -110,8 +112,12 @@ export class AsocialBookmark {
         }
     }
 
-    private async getItemsAtMonth(date: Date): Promise<AsocialBookmarkItem[]> {
-        const permalink = createPermalink(this.dataFilePath, date);
+    /**
+     * Return bookmarks at the date
+     * @param date
+     */
+    async getBookmarksAt(date: Date): Promise<AsocialBookmarkItem[]> {
+        const permalink = createBookmarkFilePath(this.dataFilePath, date);
         try {
             const response = await this.koreFile.readFile(permalink);
             const json = JSON.parse(response);
@@ -141,6 +147,7 @@ export class AsocialBookmark {
 
     /**
      * Return all Bookmarks
+     * @deprecated It is not work?
      */
     async getBookmarks(): Promise<AsocialBookmarkItem[]> {
         const allIndex = "index.json";
@@ -160,7 +167,7 @@ export class AsocialBookmark {
      */
     async getBookmark({ url, date }: { url: string, date: string }): Promise<AsocialBookmarkItem> {
         try {
-            const items = await this.getItemsAtMonth(new Date(date));
+            const items = await this.getBookmarksAt(new Date(date));
             const item = items.find(item => {
                 return equalsUrl(item.url, url);
             });
@@ -180,10 +187,10 @@ export class AsocialBookmark {
      */
     async updateBookmark(newItem: AsocialBookmarkItem) {
         const newItemDate = new Date(newItem.date);
-        const permalink = createPermalink(this.dataFilePath, newItemDate);
+        const permalink = createBookmarkFilePath(this.dataFilePath, newItemDate);
         debug("updateBookmark: permalink", permalink);
         try {
-            const items = await this.getItemsAtMonth(newItemDate);
+            const items = await this.getBookmarksAt(newItemDate);
             const matchIndex = items.findIndex(item => {
                 return equalsUrl(item.url, newItem.url);
             });
@@ -209,8 +216,8 @@ export class AsocialBookmark {
      */
     async deleteBookmark({ url, date }: { url: string, date: string }) {
         const itemDate = new Date(date);
-        const items = await this.getItemsAtMonth(itemDate);
-        const permalink = createPermalink(this.dataFilePath, itemDate);
+        const items = await this.getBookmarksAt(itemDate);
+        const permalink = createBookmarkFilePath(this.dataFilePath, itemDate);
         debug("updateBookmark: permalink", permalink);
         const matchIndex = items.findIndex(item => {
             return equalsUrl(item.url, url);
