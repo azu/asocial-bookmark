@@ -58,7 +58,7 @@ export const isAsocialBookmarkItem = (item: any): item is AsocialBookmarkItem =>
     return typeof item.title === "string" && typeof item.url === "string" && typeof item.content === "string";
 };
 
-export class AsocialBookmark {
+export class AsocialBookmark<T extends AsocialBookmarkItem> {
     private koreFile: KoreFile;
     private dataFilePath: string;
     private tagsPath: string;
@@ -116,7 +116,7 @@ export class AsocialBookmark {
      * Return bookmarks at the date
      * @param date
      */
-    async getBookmarksAt(date: Date): Promise<AsocialBookmarkItem[]> {
+    async getBookmarksAt(date: Date): Promise<T[]> {
         const permalink = createBookmarkFilePath(this.dataFilePath, date);
         try {
             const response = await this.koreFile.readFile(permalink);
@@ -149,7 +149,7 @@ export class AsocialBookmark {
      * Return all Bookmarks
      * @deprecated It is not work?
      */
-    async getBookmarks(): Promise<AsocialBookmarkItem[]> {
+    async getBookmarks(): Promise<T[]> {
         const allIndex = "index.json";
         try {
             const response = await this.koreFile.readFile(allIndex);
@@ -165,7 +165,7 @@ export class AsocialBookmark {
      * @param url
      * @param date
      */
-    async getBookmark({ url, date }: { url: string, date: string }): Promise<AsocialBookmarkItem> {
+    async getBookmark({ url, date }: { url: string, date: string }): Promise<T> {
         try {
             const items = await this.getBookmarksAt(new Date(date));
             const item = items.find(item => {
@@ -185,7 +185,7 @@ export class AsocialBookmark {
      * Add or Update new bookmark
      * @param newItem
      */
-    async updateBookmark(newItem: AsocialBookmarkItem) {
+    async updateBookmark(newItem: T) {
         const newItemDate = new Date(newItem.date);
         const permalink = createBookmarkFilePath(this.dataFilePath, newItemDate);
         debug("updateBookmark: permalink", permalink);
