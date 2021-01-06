@@ -94,6 +94,9 @@ export class AsocialBookmark<T extends AsocialBookmarkItem> {
         try {
             const allTags = await this.getTags();
             const allWithNewTags = from(allTags)
+                // remove whitespace
+                .map(tag => tag.trim())
+                // without same tag
                 .without(newTags, (a, b) => {
                     return a.toLowerCase() === b.toLowerCase();
                 })
