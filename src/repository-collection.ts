@@ -41,7 +41,7 @@ export async function createIndexJSON({ cwd }: { cwd: string }) {
 export async function createTagsJSON({ cwd }: { cwd: string }) {
     const items = await collectionIndexJSON({ cwd });
     return from(items)
-        .flatMap(item => item.tags)
+        .flatMap(item => item.tags ?? [])
         .distinct()
         .sortBy()
         .toArray();
