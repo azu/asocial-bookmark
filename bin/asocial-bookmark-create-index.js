@@ -7,8 +7,8 @@ const cli = meow(`
       $ asocial-bookmark-create-index
  
     Options
-      --cwd    [Path:String] Current Working Directory. Default: process.cwd()
-      --outDir    [Path:String] Output directory path. Default: process.cwd()
+      --cwd               [Path:String] Current Working Directory. Default: process.cwd()
+      --outDir            [Path:String] Output directory path. Default: process.cwd()
       --indexPropertyName [String] indexPropertyName option. Default: ""
  
     Examples

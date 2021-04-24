@@ -9,12 +9,14 @@ const writeFile = util.promisify(fs.writeFile);
 export interface migrateOptions {
     cwd: string;
     outDir: string;
+    indexPropertyName?: string;
 }
 
 export async function createIndex(options: migrateOptions) {
     debug("createIndex options %o", options);
     const items = await createIndexJSON({
-        cwd: options.cwd
+        cwd: options.cwd,
+        indexPropertyName: options.indexPropertyName
     });
     await writeFile(path.join(options.outDir, "index.json"), JSON.stringify(items), "utf-8");
     const tags = await createTagsJSON({
