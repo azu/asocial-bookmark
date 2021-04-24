@@ -9,6 +9,7 @@ const cli = meow(`
     Options
       --cwd    [Path:String] Current Working Directory. Default: process.cwd()
       --outDir    [Path:String] Output directory path. Default: process.cwd()
+      --indexPropertyName [String] indexPropertyName option. Default: ""
  
     Examples
       $ asocial-bookmark-create-index
@@ -19,6 +20,9 @@ const cli = meow(`
         },
         outDir: {
             type: "string"
+        },
+        indexPropertyName: {
+            type: "string"
         }
     },
     autoHelp: true,
@@ -27,7 +31,8 @@ const cli = meow(`
 
 createIndex({
     cwd: cli.flags.cwd || process.cwd(),
-    outDir: cli.flags.outDir || process.cwd()
+    outDir: cli.flags.outDir || process.cwd(),
+    indexPropertyName: cli.flags.indexPropertyName
 }).then(() => {
     console.log("Success!");
 }).catch(error => {

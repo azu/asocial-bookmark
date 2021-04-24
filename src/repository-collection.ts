@@ -13,7 +13,10 @@ const flat = <T>(array: T[][]): T[] => {
     return Array.prototype.concat.apply([], array);
 };
 
-export async function collectionIndexJSON({ cwd }: { cwd: string }): Promise<AsocialBookmarkItem[]> {
+export async function collectionIndexJSON({
+                                              cwd,
+                                              indexPropertyName
+                                          }: { cwd: string, indexPropertyName?: string; }): Promise<AsocialBookmarkItem[]> {
     const pattern = path.join(cwd, "data/*/*/index.json");
     debug("collectionIndexJSON pattern: %s", pattern);
     const indexFilePathList = glob.sync(pattern);
@@ -21,7 +24,11 @@ export async function collectionIndexJSON({ cwd }: { cwd: string }): Promise<Aso
     // [[item], [item]..]
     const fileContents = indexFilePathList.map(filePath => {
         return readFile(filePath, "utf-8").then(content => {
-            return JSON.parse(content);
+            const json = JSON.parse(content);
+            if (indexPropertyName) {
+                return json[indexPropertyName];
+            }
+            return json;
         });
     });
     // [item, item]
@@ -29,8 +36,8 @@ export async function collectionIndexJSON({ cwd }: { cwd: string }): Promise<Aso
     return flat(nextItems);
 }
 
-export async function createIndexJSON({ cwd }: { cwd: string }) {
-    const items = await collectionIndexJSON({ cwd });
+export async function createIndexJSON({ cwd, indexPropertyName }: { cwd: string; indexPropertyName?: string }) {
+    const items = await collectionIndexJSON({ cwd, indexPropertyName });
     // TODO: Will be unique more by `url` key?
     return from(items)
         .sortByDescending(item => item.date)
