@@ -80,5 +80,6 @@
     "meow": "^8.1.0",
     "node-fetch": "^2.6.1",
     "normalize-url": "^4.3.0"
-  }
+  },
+  "packageManager": "pnpm@10.28.2"
 }
