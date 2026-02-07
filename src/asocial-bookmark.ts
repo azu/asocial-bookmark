@@ -3,10 +3,11 @@ import dayjs from "dayjs";
 import { from } from "fromfrom";
 import normalizeUrl from "normalize-url";
 import deepEqual from "fast-deep-equal";
+import createDebug from "debug";
 
-const debug = require("debug")("asocial-bookmark");
+const debug = createDebug("asocial-bookmark");
 
-export interface AsocialBookmarkItem {
+export type AsocialBookmarkItem = {
     title: string;
     // unique key
     url: string;
@@ -15,9 +16,9 @@ export interface AsocialBookmarkItem {
     date: string;
     viaURL?: string;
     relatedItems?: { title: string, url: string }[]
-}
+};
 
-export interface AsocialBookmarkOptions {
+export type AsocialBookmarkOptions = {
     github?: {
         owner: string;
         repo: string;
@@ -36,7 +37,7 @@ export interface AsocialBookmarkOptions {
     local?: {
         cwd: string;
     }
-}
+};
 
 export const createBookmarkFilePath = (variablePath: string, date: Date) => {
     const day = dayjs(date);

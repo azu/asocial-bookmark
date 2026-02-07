@@ -1,19 +1,20 @@
 #!/usr/bin/env node
+import meow from "meow";
+import { createIndex } from "./asocial-bookmark-create-index.js";
 
-const meow = require("meow");
-const { createIndex } = require("../lib/cli/asocial-bookmark-create-index");
 const cli = meow(`
     Usage
       $ asocial-bookmark-create-index
- 
+
     Options
       --cwd               [Path:String] Current Working Directory. Default: process.cwd()
       --outDir            [Path:String] Output directory path. Default: process.cwd()
       --indexPropertyName [String] indexPropertyName option. Default: ""
- 
+
     Examples
       $ asocial-bookmark-create-index
 `, {
+    importMeta: import.meta,
     flags: {
         cwd: {
             type: "string"
@@ -37,4 +38,5 @@ createIndex({
     console.log("Success!");
 }).catch(error => {
     console.error(error);
+    process.exit(1);
 });

@@ -1,16 +1,15 @@
-import { createIndexJSON, createTagsJSON } from "../repository-collection";
-import * as fs from "fs";
-import * as util from "util";
-import * as path from "path";
+import { createIndexJSON, createTagsJSON } from "../repository-collection.js";
+import { writeFile } from "node:fs/promises";
+import path from "node:path";
+import createDebug from "debug";
 
-const debug = require("debug")("asocial-bookmark");
-const writeFile = util.promisify(fs.writeFile);
+const debug = createDebug("asocial-bookmark");
 
-export interface migrateOptions {
+export type migrateOptions = {
     cwd: string;
     outDir: string;
     indexPropertyName?: string;
-}
+};
 
 export async function createIndex(options: migrateOptions) {
     debug("createIndex options %o", options);

@@ -1,36 +1,19 @@
 {
   "compilerOptions": {
-    /* Basic Options */
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "newLine": "LF",
+    "module": "node16",
+    "moduleResolution": "node16",
+    "target": "es2022",
     "outDir": "./lib/",
-    "target": "es2017",
     "sourceMap": true,
     "declaration": true,
-    "jsx": "preserve",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
-    /* Strict Type-Checking Options */
+    "newLine": "LF",
     "strict": true,
-    /* Additional Checks */
-    /* Report errors on unused locals. */
     "noUnusedLocals": true,
-    /* Report errors on unused parameters. */
     "noUnusedParameters": true,
-    /* Report error when not all code paths in function return a value. */
     "noImplicitReturns": true,
-    /* Report errors for fallthrough cases in switch statement. */
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    ".git",
-    "node_modules"
-  ]
+  "include": ["src/**/*"],
+  "exclude": [".git", "node_modules"]
 }

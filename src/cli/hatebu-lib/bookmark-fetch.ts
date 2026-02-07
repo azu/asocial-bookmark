@@ -1,14 +1,17 @@
-import * as path from "path";
-import * as fs from "fs";
-import { parseMyData, ParsedResults } from "./parse-mydata";
-import fetch from "node-fetch";
+import path from "node:path";
+import fs from "node:fs";
+import { fileURLToPath } from "node:url";
+import { parseMyData, ParsedResults } from "./parse-mydata.js";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const CACHE_DIR = path.join(__dirname, "../../../.cache");
 const OUTPUT_PATH = path.join(CACHE_DIR, "search.data");
 
-export interface FetchHatenaBookmarksOptions {
+export type FetchHatenaBookmarksOptions = {
     reload: boolean;
-}
+};
 
 export const fetchHatenaBookmarks = async (userName: string, options: FetchHatenaBookmarksOptions): Promise<ParsedResults> => {
     const searchDataURL = `https://b.hatena.ne.jp/${encodeURIComponent(userName)}/search.data`;
