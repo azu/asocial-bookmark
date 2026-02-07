@@ -1,12 +1,13 @@
-import { fetchHatenaBookmarks } from "./hatebu-lib/bookmark-fetch";
-import { AsocialBookmark } from "../asocial-bookmark";
+import { fetchHatenaBookmarks } from "./hatebu-lib/bookmark-fetch.js";
+import { AsocialBookmark } from "../asocial-bookmark.js";
+import createDebug from "debug";
 
-const debug = require("debug")("asocial-bookmark");
+const debug = createDebug("asocial-bookmark");
 
-export interface migrateOptions {
+export type migrateOptions = {
     hatenaUserName: string;
     cwd: string;
-}
+};
 
 export async function migrate(options: migrateOptions) {
 

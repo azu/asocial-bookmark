@@ -1,4 +1,4 @@
-import { AsocialBookmark } from "./asocial-bookmark";
+import { AsocialBookmark } from "./asocial-bookmark.js";
 
 (async () => {
     if (!process.env.GH_TOKEN) {

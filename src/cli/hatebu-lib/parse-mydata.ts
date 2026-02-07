@@ -1,4 +1,4 @@
-const parse = require("hatebu-mydata-parser").parse;
+import hatebuParser from "hatebu-mydata-parser";
 export type ParsedResult = {
     title: string,
     comment: string,
@@ -14,7 +14,7 @@ export function parseMyData(text: string): ParsedResults {
         comment: string,
         url: string,
         date: Date;
-    }[] = parse(text);
+    }[] = hatebuParser.parse(text);
     return results.map(result => {
         let commentParsed = parseComment(result.comment);
         return {

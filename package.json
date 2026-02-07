@@ -15,39 +15,34 @@
   },
   "license": "MIT",
   "author": "azu",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "asocial-bookmark-create-index": "./lib/cli/asocial-bookmark-create-index-cli.js",
+    "migrate-hatenabookmark-to-asocial-bookmark": "./lib/cli/migrate-hatenabookmark-to-asocial-bookmark-cli.js"
+  },
   "files": [
-    "bin/",
     "lib/",
     "src/"
   ],
-  "main": "lib/asocial-bookmark.js",
-  "types": "lib/asocial-bookmark.d.ts",
-  "bin": {
-    "asocial-bookmark-create-index": "./bin/asocial-bookmark-create-index.js",
-    "migrate-hatenabookmark-to-asocial-bookmark": "./bin/migrate-hatenabookmark-to-asocial-bookmark.js"
-  },
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
-    "build": "cross-env NODE_ENV=production tsc -p .",
-    "clean": "rimraf lib/",
+    "build": "tsc -p .",
+    "clean": "rm -rf lib/",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
-    "prepublish": "npm run --if-present build",
-    "test": "# mocha \"test/**/*.ts\"",
+    "prepublishOnly": "npm run --if-present build",
+    "test": "vitest run",
     "watch": "tsc -p . --watch"
-  },
-  "husky": {
-    "hooks": {
-      "precommit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,css}": [
-      "prettier --write",
-      "git add"
-    ]
   },
   "prettier": {
     "printWidth": 120,
@@ -55,31 +50,27 @@
     "tabWidth": 4
   },
   "devDependencies": {
-    "@types/glob": "^7.1.1",
-    "@types/mocha": "^5.2.7",
-    "@types/node": "^12.0.4",
-    "@types/node-fetch": "^2.3.4",
-    "cross-env": "^5.2.0",
-    "husky": "^2.3.0",
-    "lint-staged": "^8.1.7",
-    "mocha": "^6.1.4",
-    "prettier": "^1.17.1",
-    "rimraf": "^2.6.3",
-    "ts-node": "^9.1.1",
-    "ts-node-test-register": "^9.0.1",
-    "typescript": "^4.1.3"
+    "@types/debug": "^4.1.12",
+    "@types/node": "^22.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
   },
   "dependencies": {
     "dayjs": "^1.8.14",
     "debug": "^4.1.1",
-    "fast-deep-equal": "^2.0.1",
+    "fast-deep-equal": "^3.0.0",
     "fromfrom": "^1.3.0",
-    "glob": "^7.1.4",
+    "glob": "^11.0.0",
     "hatebu-mydata-parser": "^1.0.0",
     "korefile": "^2.1.0",
-    "meow": "^8.1.0",
-    "node-fetch": "^2.6.1",
-    "normalize-url": "^4.3.0"
+    "meow": "^13.0.0",
+    "normalize-url": "^8.0.0"
   },
-  "packageManager": "pnpm@10.28.2"
+  "packageManager": "pnpm@10.28.2",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
 }
