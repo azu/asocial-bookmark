@@ -92,28 +92,23 @@ export class AsocialBookmark<T extends AsocialBookmarkItem> {
         }
         const permalink = this.tagsPath;
         debug("updateTags: permalink", permalink);
-        try {
-            const allTags = await this.getTags();
-            const allWithNewTags = from(allTags)
-                // remove whitespace
-                .map(tag => tag.trim())
-                // without same tag
-                .without(newTags, (a, b) => {
-                    return a.toLowerCase() === b.toLowerCase();
-                })
-                .concat(newTags)
-                .sortBy()
-                .distinct()
-                .toArray();
-            if (deepEqual(allWithNewTags, allTags)) {
-                // No update
-                return;
-            }
-            return this.koreFile.writeFile(permalink, JSON.stringify(allWithNewTags, null, 4) + "\n");
-        } catch (error) {
-            debug("updateTags Error", error);
+        const allTags = await this.getTags().catch(() => [] as string[]);
+        const allWithNewTags = from(allTags)
+            // remove whitespace
+            .map(tag => tag.trim())
+            // without same tag
+            .without(newTags, (a, b) => {
+                return a.toLowerCase() === b.toLowerCase();
+            })
+            .concat(newTags)
+            .sortBy()
+            .distinct()
+            .toArray();
+        if (deepEqual(allWithNewTags, allTags)) {
+            // No update
             return;
         }
+        return this.koreFile.writeFile(permalink, JSON.stringify(allWithNewTags, null, 4) + "\n");
     }
 
     /**
@@ -122,17 +117,12 @@ export class AsocialBookmark<T extends AsocialBookmarkItem> {
      */
     async getBookmarksAt(date: Date): Promise<T[]> {
         const permalink = createBookmarkFilePath(this.dataFilePath, date);
-        try {
-            const response = await this.koreFile.readFile(permalink);
-            const json = JSON.parse(response);
-            if (this.indexPropertyName) {
-                return json[this.indexPropertyName];
-            }
-            return json;
-        } catch (error) {
-            debug("getItemsAtMonth Error", error);
-            return [];
+        const response = await this.koreFile.readFile(permalink);
+        const json = JSON.parse(response);
+        if (this.indexPropertyName) {
+            return json[this.indexPropertyName];
         }
+        return json;
     }
 
 
@@ -140,13 +130,8 @@ export class AsocialBookmark<T extends AsocialBookmarkItem> {
      * Return all tags
      */
     async getTags(): Promise<string[]> {
-        try {
-            const response = await this.koreFile.readFile(this.tagsPath);
-            return JSON.parse(response);
-        } catch (error) {
-            debug("getTags Error", error);
-            return [];
-        }
+        const response = await this.koreFile.readFile(this.tagsPath);
+        return JSON.parse(response);
     }
 
     /**
@@ -155,13 +140,8 @@ export class AsocialBookmark<T extends AsocialBookmarkItem> {
      */
     async getBookmarks(): Promise<T[]> {
         const allIndex = "index.json";
-        try {
-            const response = await this.koreFile.readFile(allIndex);
-            return JSON.parse(response);
-        } catch (error) {
-            debug("getBookmarks Error", error);
-            return [];
-        }
+        const response = await this.koreFile.readFile(allIndex);
+        return JSON.parse(response);
     }
 
     /**
@@ -170,19 +150,14 @@ export class AsocialBookmark<T extends AsocialBookmarkItem> {
      * @param date
      */
     async getBookmark({ url, date }: { url: string, date: string }): Promise<T> {
-        try {
-            const items = await this.getBookmarksAt(new Date(date));
-            const item = items.find(item => {
-                return equalsUrl(item.url, url);
-            });
-            if (!item) {
-                return Promise.reject(new Error(`Not found item: ${url}`));
-            }
-            return item;
-        } catch (error) {
-            debug("getBookmark Error", error);
-            return Promise.reject(error);
+        const items = await this.getBookmarksAt(new Date(date));
+        const item = items.find(item => {
+            return equalsUrl(item.url, url);
+        });
+        if (!item) {
+            throw new Error(`Not found item: ${url}`);
         }
+        return item;
     }
 
     /**
@@ -193,24 +168,19 @@ export class AsocialBookmark<T extends AsocialBookmarkItem> {
         const newItemDate = new Date(newItem.date);
         const permalink = createBookmarkFilePath(this.dataFilePath, newItemDate);
         debug("updateBookmark: permalink", permalink);
-        try {
-            const items = await this.getBookmarksAt(newItemDate);
-            const matchIndex = items.findIndex(item => {
-                return equalsUrl(item.url, newItem.url);
-            });
-            // remove old item
-            if (matchIndex !== -1) {
-                items.splice(matchIndex, 1);
-            }
-            const newItems = items.concat(newItem);
-            const json = this.indexPropertyName ? { [this.indexPropertyName]: newItems } : newItems;
-            await this.koreFile.writeFile(permalink, JSON.stringify(json, null, 4) + "\n");
-            // Move updating tags to batch tool => asocial-bookmark-create-index.ts
-            await this.updateTags(newItem.tags);
-        } catch (error) {
-            debug("getBookmark Error", error);
-            return;
+        const items = await this.getBookmarksAt(newItemDate).catch(() => [] as T[]);
+        const matchIndex = items.findIndex(item => {
+            return equalsUrl(item.url, newItem.url);
+        });
+        // remove old item
+        if (matchIndex !== -1) {
+            items.splice(matchIndex, 1);
         }
+        const newItems = items.concat(newItem);
+        const json = this.indexPropertyName ? { [this.indexPropertyName]: newItems } : newItems;
+        await this.koreFile.writeFile(permalink, JSON.stringify(json, null, 4) + "\n");
+        // Move updating tags to batch tool => asocial-bookmark-create-index.ts
+        await this.updateTags(newItem.tags);
     }
 
     /**
