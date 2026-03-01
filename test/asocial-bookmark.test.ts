@@ -78,13 +78,12 @@ describe("AsocialBookmark", () => {
             expect(items.every(isAsocialBookmarkItem)).toBe(true);
         });
 
-        it("should reject for non-existent date", async () => {
+        it("should return empty array for non-existent date", async () => {
             const bookmark = new AsocialBookmark({
                 local: { cwd: fixturesDir },
             });
-            await expect(
-                bookmark.getBookmarksAt(new Date("2099-01-01T00:00:00.000Z"))
-            ).rejects.toThrow();
+            const items = await bookmark.getBookmarksAt(new Date("2099-01-01T00:00:00.000Z"));
+            expect(items).toEqual([]);
         });
     });
 

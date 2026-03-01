@@ -117,12 +117,16 @@ export class AsocialBookmark<T extends AsocialBookmarkItem> {
      */
     async getBookmarksAt(date: Date): Promise<T[]> {
         const permalink = createBookmarkFilePath(this.dataFilePath, date);
-        const response = await this.koreFile.readFile(permalink);
-        const json = JSON.parse(response);
-        if (this.indexPropertyName) {
-            return json[this.indexPropertyName];
+        try {
+            const response = await this.koreFile.readFile(permalink);
+            const json = JSON.parse(response);
+            if (this.indexPropertyName) {
+                return json[this.indexPropertyName];
+            }
+            return json;
+        } catch {
+            return [];
         }
-        return json;
     }
 
 
@@ -130,8 +134,12 @@ export class AsocialBookmark<T extends AsocialBookmarkItem> {
      * Return all tags
      */
     async getTags(): Promise<string[]> {
-        const response = await this.koreFile.readFile(this.tagsPath);
-        return JSON.parse(response);
+        try {
+            const response = await this.koreFile.readFile(this.tagsPath);
+            return JSON.parse(response);
+        } catch {
+            return [];
+        }
     }
 
     /**
@@ -139,9 +147,13 @@ export class AsocialBookmark<T extends AsocialBookmarkItem> {
      * @deprecated It is not work?
      */
     async getBookmarks(): Promise<T[]> {
-        const allIndex = "index.json";
-        const response = await this.koreFile.readFile(allIndex);
-        return JSON.parse(response);
+        try {
+            const allIndex = "index.json";
+            const response = await this.koreFile.readFile(allIndex);
+            return JSON.parse(response);
+        } catch {
+            return [];
+        }
     }
 
     /**
